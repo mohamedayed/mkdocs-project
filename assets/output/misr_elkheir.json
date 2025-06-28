@@ -1,0 +1,201 @@
+{
+  "id": 1,
+  "name": "misr elkheir",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "misr elkheir",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "misr elkheir",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "2015",
+                "LocalDate": "01-06-2025 10:10:20",
+                "Version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "3"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 0,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "billingAccount",
+                    "Value": "2015",
+                    "Name": "كود الموظف"
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "هشام محمد عبدالفتاح",
+                    "Name": "اسم الموظف"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 67153,
+                    "alias": "",
+                    "amount": 0,
+                    "minAmount": 1,
+                    "maxAmount": 999999,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "billingAccount": "2015",
+                "amount": "100",
+                "version": "1",
+                "servicelistVersion": "1"
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "100",
+                "fees": "",
+                "taxes": "",
+                "totalAmount": "",
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "billingAccount": "2015",
+                "amount": 100,
+                "version": "1",
+                "serviceListVersion": "1",
+                "brn": 82430,
+                "localDate": "01-06-2025 10:12:12",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "01/06/2025 10:12:12 AM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "32750",
+                    "name": "رقم العمليه"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n            }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "01/06/2024 10:12:12 AM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceId",
+                            "value": "3192",
+                            "name": "كود الخدمه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "billingAccount",
+                            "value": "2015",
+                            "name": "كود الموظف",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "هشام محمد عبدالفتاح",
+                            "name": "اسم الموظف",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "amount",
+                            "value": "100",
+                            "name": "المبلغ المدفوع",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

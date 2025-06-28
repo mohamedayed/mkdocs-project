@@ -1,0 +1,37 @@
+/* Scope Bootstrap to .bootstrap-scope only */
+.bootstrap-scope * {
+    all: revert; /* reset inherited Bootstrap styles */
+  }
+  
+  .bootstrap-scope {
+    font-family: inherit;
+    background-color: inherit;
+    color: inherit;
+  }
+  
+  /* Optional: match Bootstrap form fields to MkDocs styles */
+  .bootstrap-scope .form-select,
+  .bootstrap-scope .form-control,
+  .bootstrap-scope .btn {
+    background-color: inherit;
+    color: inherit;
+    border-color: var(--md-default-fg-color--lighter);
+  }
+  
+  /* MkDocs Material Dark Mode Support */
+  [data-md-color-scheme="slate"] .bootstrap-scope .card {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    border: 1px solid #444;
+  }
+  
+  [data-md-color-scheme="default"] .bootstrap-scope .card {
+    background-color: #fff;
+    color: #222;
+    border: 1px solid #ccc;
+  }
+  .bootstrap-scope .btn-primary {
+    background-color: var(--md-primary-fg-color);
+    border-color: var(--md-primary-fg-color);
+  }
+  

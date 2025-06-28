@@ -1,0 +1,942 @@
+{
+  "id": 1,
+  "name": "enr",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "enr",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "enr",
+          "docs": {
+            "Login": {
+              "request": {
+                "UserName": "111",
+                "Password": "25802580",
+                "AccountID": "6",
+                "ChannelCategory": "3",
+                "ChannelType": "3",
+                "ChannelId": "352966108812146",
+                "LocalDate": "20-21-01-13T13:16:20",
+                "Version": "201",
+                "ServiceVersion": "1"
+              },
+              "response": {
+                "Message": "عمليه ناجحه",
+                "Code": 200,
+                "AccountId": 6,
+                "LocalDate": "0001-01-01T00:00:00",
+                "ServerDate": "2025-03-09T11:08:55",
+                "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjExMXw2fDM1Mjk2NjEwODgxMjE0Nnw2MTQ3OSIsIm5iZiI6MTc0MTI3MDQ2MywiZXhwIjoxNzQxNTI5NjYzLCJpYXQiOjE3NDEyNzA0NjN9.AIR6I7MIekPhUeoWkm4y61QjaqTJFUFbpVpP7j0O8mM",
+                "AccountName": "IT",
+                "AcountType": 11,
+                "ID": 0,
+                "ServiceVersion": "1",
+                "Version": "34",
+                "LookupVersionId": "1",
+                "PayByReferenceActive": true,
+                "IsGasDirect": true
+              }
+            },
+            "Get Stations": {
+              "request": {
+                "lookupName": "Stations",
+                "lookupId": 2,
+                "lookupVersion": 1
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "responseData": [
+                  {
+                    "lookupId": "606535393554202689",
+                    "lookupName": "القاهرة"
+                  },
+                  {
+                    "lookupId": "606535393554202688",
+                    "lookupName": "بنها"
+                  }
+                ]
+              }
+            },
+            "Trip Search": {
+              "request": {
+                "BillingAccount": "29607011406654",
+                "localDate": "5-28-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "fromStation",
+                    "value": "606534187276566625"
+                  },
+                  {
+                    "key": "toStation",
+                    "value": "606535384603557938"
+                  },
+                  {
+                    "key": "departureDate",
+                    "value": "2025-02-20"
+                  },
+                  {
+                    "key": "noOfSeats",
+                    "value": "3"
+                  },
+                  {
+                    "key": "coachClassId",
+                    "value": "1210000"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": "",
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "fromStation",
+                    "Value": "606534187276566625",
+                    "Name": "محطة المغادرة"
+                  },
+                  {
+                    "Key": "toStation",
+                    "Value": "606535384603557938",
+                    "Name": "محطة الوصول"
+                  },
+                  {
+                    "Key": "noOfSeats",
+                    "Value": "3",
+                    "Name": "عدد التذاكر"
+                  },
+                  {
+                    "Key": "coachClassDesc",
+                    "Value": "أولى مكيفة",
+                    "Name": "الدرجة"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 510,
+                    "minAmount": 510,
+                    "maxAmount": 510,
+                    "Data": [
+                      {
+                        "Key": "trainNo",
+                        "Value": "905",
+                        "Name": "رقم القطار"
+                      },
+                      {
+                        "Key": "startTime",
+                        "Value": "09:00:00",
+                        "Name": "وقت المغادرة"
+                      },
+                      {
+                        "Key": "startDate",
+                        "Value": "2025-02-20",
+                        "Name": "تاريخ السفر"
+                      },
+                      {
+                        "Key": "finishDate",
+                        "Value": "2025-02-20",
+                        "Name": "تاريخ الوصول"
+                      },
+                      {
+                        "Key": "ticketCost",
+                        "Value": "170",
+                        "Name": "سعر التذكرة"
+                      },
+                      {
+                        "Key": "totalAvailableTickets",
+                        "Value": "44 ",
+                        "Name": "عدد التذاكر المتاحة"
+                      },
+                      {
+                        "Key": "totalTicketsCost",
+                        "Value": "510 ",
+                        "Name": "اجمالى سعر التذاكر"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 2,
+                    "alias": "",
+                    "amount": 510,
+                    "minAmount": 510,
+                    "maxAmount": 510,
+                    "Data": [
+                      {
+                        "Key": "trainNo",
+                        "Value": "905",
+                        "Name": "رقم القطار"
+                      },
+                      {
+                        "Key": "startTime",
+                        "Value": "09:00:00",
+                        "Name": "وقت القيام"
+                      },
+                      {
+                        "Key": "startDate",
+                        "Value": "2025-02-20",
+                        "Name": "تاريخ السفر"
+                      },
+                      {
+                        "Key": "finishDate",
+                        "Value": "2025-02-20",
+                        "Name": "تاريخ الوصول"
+                      },
+                      {
+                        "Key": "ticketCost",
+                        "Value": "170",
+                        "Name": "سعر التذكرة"
+                      },
+                      {
+                        "Key": "totalAvailableTickets",
+                        "Value": "44 ",
+                        "Name": "عدد التذاكر المتاحة"
+                      },
+                      {
+                        "Key": "totalTicketsCost",
+                        "Value": "510 ",
+                        "Name": "اجمالى سعر التذاكر"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "510",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": []
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29607011406654",
+                "amount": 510,
+                "localDate": "5-28-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "\r"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "02/28/2025 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "",
+                    "name": "رقم العملية"
+                  },
+                  {
+                    "key": "providerTransactionId",
+                    "value": "202599001197682669",
+                    "name": "الرقم المرجعى"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n            }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "02/28/2025 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "202599001197682669",
+                            "name": "الرقم المرجعى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ticketId",
+                            "value": "1016966661879365635",
+                            "name": "رقم التذكرة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "29607011406654",
+                            "name": "الرقم القومى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "startTime",
+                            "value": "09:00:00",
+                            "name": "وقت المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "startDate",
+                            "value": "2025-02-20",
+                            "name": "تاريخ المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "finishDate",
+                            "value": "2025-02-20",
+                            "name": "تاريخ الوصول",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "fromStationAr",
+                            "value": "القاهره",
+                            "name": "محطة المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "toStationAr",
+                            "value": "الاسكندريه",
+                            "name": "محطة الوصول",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "trainNumber",
+                            "value": "905",
+                            "name": "رقم القطار",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "trainType",
+                            "value": "خاص",
+                            "name": "نوع القطار",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "coachClassDescAr",
+                            "value": "أولى مكيفة",
+                            "name": "الدرجة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "profileType",
+                            "value": "كوامل",
+                            "name": "نوع الراكب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "carriageNumber ",
+                            "value": "1",
+                            "name": "رقم العربة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "seatNo",
+                            "value": "8",
+                            "name": "رقم المقعد",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "165",
+                            "name": "سعر التذكرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ServiceFees",
+                            "value": "5.0",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "170",
+                            "name": "الاجمالى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "qrCode",
+                            "value": "1016966661878579203;ENR_1;ENR_101;qr;250510900;MCECDwCG/++ynHRFMa1vPrlcogIOPaSh497gXOYfdYm0O80=",
+                            "name": "",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 1,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "ticketId",
+                            "value": "1016966661879365635",
+                            "name": "",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 1,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": "المسافر الرئيسى هو صاحب الرقم القومى المسجل فى الايصال فى حالة الرغبة فى الغاء التذكرة. يرجى التوجه الى محطة القطار",
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  },
+                  {
+                    "title": {
+                      "serviceName": "\r\n            }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "02/28/2025 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "202599001197682669",
+                            "name": "الرقم المرجعى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ticketId",
+                            "value": "1016966661879365635",
+                            "name": "رقم التذكرة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "29607011406654",
+                            "name": "الرقم القومى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "startTime",
+                            "value": "09:00",
+                            "name": "وقت المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "startDate",
+                            "value": "2025-02-20",
+                            "name": "تاريخ المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "finishDate",
+                            "value": "2025-02-20",
+                            "name": "تاريخ الوصول",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "fromStationAr",
+                            "value": "القاهره",
+                            "name": "محطة المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "toStationAr",
+                            "value": "الاسكندريه",
+                            "name": "محطة الوصول",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "trainNumber",
+                            "value": "905",
+                            "name": "رقم القطار",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "trainType",
+                            "value": "خاص",
+                            "name": "نوع القطار",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "coachClassDescAr",
+                            "value": "أولى مكيفة",
+                            "name": "الدرجة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "profileType",
+                            "value": "كوامل",
+                            "name": "نوع الراكب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "carriageNumber ",
+                            "value": "1",
+                            "name": "رقم العربة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "seatNo",
+                            "value": "8",
+                            "name": "رقم المقعد",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "165",
+                            "name": "سعر التذكرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ServiceFees",
+                            "value": "5.0",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "170",
+                            "name": "الاجمالى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "qrCode",
+                            "value": "1016966661878579203;ENR_1;ENR_101;qr;250510900;MCECDwCG/++ynHRFMa1vPrlcogIOPaSh497gXOYfdYm0O80=",
+                            "name": "",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 1,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "ticketId",
+                            "value": "1016966661879365635",
+                            "name": "",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 1,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": "المسافر الرئيسى هو صاحب الرقم القومى المسجل فى الايصال فى حالة الرغبة فى الغاء التذكرة. يرجى التوجه الى محطة القطار",
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  },
+                  {
+                    "title": {
+                      "serviceName": "\r\n            }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "02/28/2025 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "202599001197682669",
+                            "name": "الرقم المرجعى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ticketId",
+                            "value": "1016966661879365635",
+                            "name": "رقم التذكرة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "29607011406654",
+                            "name": "الرقم القومى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "startTime",
+                            "value": "09:00",
+                            "name": "وقت المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "startDate",
+                            "value": "2025-02-20",
+                            "name": "تاريخ المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "finishDate",
+                            "value": "2025-02-20",
+                            "name": "تاريخ الوصول",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "fromStationAr",
+                            "value": "القاهره",
+                            "name": "محطة المغادرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "toStationAr",
+                            "value": "الاسكندريه",
+                            "name": "محطة الوصول",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "trainNumber",
+                            "value": "905",
+                            "name": "رقم القطار",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "trainType",
+                            "value": "خاص",
+                            "name": "نوع القطار",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "coachClassDescAr",
+                            "value": "أولى مكيفة",
+                            "name": "الدرجة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "profileType",
+                            "value": "كوامل",
+                            "name": "نوع الراكب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "carriageNumber ",
+                            "value": "1",
+                            "name": "رقم العربة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "seatNo",
+                            "value": "8",
+                            "name": "رقم المقعد",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "165",
+                            "name": "سعر التذكرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ServiceFees",
+                            "value": "5.0",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "170",
+                            "name": "الاجمالى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "qrCode",
+                            "value": "1016966661878579203;ENR_1;ENR_101;qr;250510900;MCECDwCG/++ynHRFMa1vPrlcogIOPaSh497gXOYfdYm0O80=",
+                            "name": "",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 1,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "ticketId",
+                            "value": "1016966661879365635",
+                            "name": "",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 1,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": "المسافر الرئيسى هو صاحب الرقم القومى المسجل فى الايصال فى حالة الرغبة فى الغاء التذكرة. يرجى التوجه الى محطة القطار",
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

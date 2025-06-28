@@ -1,0 +1,305 @@
+{
+  "id": 1,
+  "name": "fayoum water hydrocomp",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "fayoum water hydrocomp",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "fayoum water hydrocomp",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "150229800",
+                "localDate": "3-18-2025 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 4,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "رأفت عزيز حبيب",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 4,
+                    "minAmount": 4,
+                    "maxAmount": 4,
+                    "Data": [
+                      {
+                        "Key": "consump",
+                        "Value": "4",
+                        "Name": "الاستهلاك"
+                      },
+                      {
+                        "Key": "prevReading",
+                        "Value": "1661",
+                        "Name": "القراءة السابقة"
+                      },
+                      {
+                        "Key": "curReading",
+                        "Value": "1665",
+                        "Name": "القراءة الحالية"
+                      },
+                      {
+                        "Key": "dueDate",
+                        "Value": "2025-03-30 00:00:00Z",
+                        "Name": "تاريخ الاستحقاق للفاتورة"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "150229800",
+                "amount": 4,
+                "localDate": "3-18-2025 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "03/18/2025 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "",
+                    "name": "\r"
+                  },
+                  {
+                    "key": "billNumber",
+                    "value": "468150229800",
+                    "name": "رقم الفاتورة"
+                  },
+                  {
+                    "key": "calcType",
+                    "value": "فعلى",
+                    "name": "نوع المحاسبة"
+                  },
+                  {
+                    "key": "address",
+                    "value": "م تعاونيات ع 85 ش 17",
+                    "name": "العنوان"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "03/15/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": "C12",
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "billingAccount",
+                            "value": "150229800",
+                            "name": "رقم حساب العميل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "billNumber",
+                            "value": "468150229800",
+                            "name": "رقم الفاتورة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "dueDate",
+                            "value": "2025-03-30 00:00:00Z",
+                            "name": "تاريخ الاستحقاق للفاتورة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "رأفت عزيز حبيب",
+                            "name": "اسم العميل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "consump",
+                            "value": "4",
+                            "name": "الاستهلاك",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "prevReading",
+                            "value": "1661 ",
+                            "name": "القراءة السابقة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "currReading",
+                            "value": "1665 ",
+                            "name": "القراءة الحالية",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "calcType",
+                            "value": "فعلى  ",
+                            "name": "نوع المحاسبة ",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "address",
+                            "value": "م تعاونيات ع 85 ش 17",
+                            "name": "العنوان",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "4",
+                            "name": "المبلغ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ServiceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

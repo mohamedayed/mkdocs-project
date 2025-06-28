@@ -1,0 +1,234 @@
+{
+  "id": 1,
+  "name": "we vouchers",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "We Voucher CR",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "We Voucher CR",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": 11.5,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "count",
+                    "Value": "2",
+                    "Name": "عدد الكروت"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [
+                  {
+                    "Key": "count",
+                    "Value": "2",
+                    "Name": "عدد الكروت"
+                  }
+                ],
+                "amount": 11.5,
+                "fees": 0,
+                "taxes": 0,
+                "totalAmount": 11.5,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "",
+                "amount": 30,
+                "localDate": "03-15-2024 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": [
+                {
+                  "Code": "200",
+                  "Message": "عملية ناجحة",
+                  "totalAvailableBalance": 951669.13,
+                  "totalBalance": 951669.13,
+                  "localDate": null,
+                  "serverDate": "15/03/2024 2:02:26 م",
+                  "Data": [
+                    {
+                      "Key": "transactionId",
+                      "Value": "1547963",
+                      "Name": "رقم العمليه"
+                    },
+                    {
+                      "Key": "providerTransactionId",
+                      "Value": "",
+                      "Name": "الرقم المرجعي للخدمه"
+                    },
+                    {
+                      "Key": "pin",
+                      "Value": "4235-8478-9428-227",
+                      "Name": "كود الشحن"
+                    },
+                    {
+                      "Key": "serial",
+                      "Value": "240805651366659",
+                      "Name": "الرقم المسلسل"
+                    },
+                    {
+                      "Key": "expirationDate",
+                      "Value": "2026-04-02T21:59:59.000",
+                      "Name": "تاريخ انتهاء الصلاحية"
+                    }
+                  ]
+                },
+                [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "",
+                    "Name": "الرقم المرجعي للخدمه"
+                  },
+                  {
+                    "Key": "pin",
+                    "Value": "4235-8478-9428-227",
+                    "Name": "كود الشحن"
+                  },
+                  {
+                    "Key": "serial",
+                    "Value": "240805651366659",
+                    "Name": "الرقم المسلسل"
+                  },
+                  {
+                    "Key": "expirationDate",
+                    "Value": "2026-04-02T21:59:59.000",
+                    "Name": "تاريخ انتهاء الصلاحية"
+                  }
+                ],
+                "receipts",
+                ":",
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "Encrypted PIN",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "19073100000472",
+                          "Name": "رقم المسلسل"
+                        },
+                        {
+                          "Key": "expirationDate",
+                          "Value": "2026-04-02T21:59:59.000",
+                          "Name": "تاريخ انتهاء الصلاحية"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "Encrypted PIN",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "19073100000473",
+                          "Name": "رقم المسلسل"
+                        },
+                        {
+                          "Key": "expirationDate",
+                          "Value": "2026-04-02T21:59:59.000",
+                          "Name": "تاريخ انتهاء الصلاحية"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer",
+                ":",
+                "",
+                "footer",
+                ":",
+                "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              ]
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

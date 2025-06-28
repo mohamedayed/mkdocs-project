@@ -1,0 +1,233 @@
+{
+  "id": 1,
+  "name": "rise egypt",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "rise egypt",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "rise egypt",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01578888888",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 403,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "InstaPay TestOne",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "Key": "billingAccount",
+                    "Value": "01578888888",
+                    "Name": "رقم الموبايل "
+                  }
+                ],
+                "invoices": [
+                  {
+                    "sequence": 1,
+                    "alias": "",
+                    "amount": 403,
+                    "minAmount": 403,
+                    "maxAmount": 403,
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "403",
+                        "Name": " المبلغ المستحق"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "403",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "403",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01578888888",
+                "amount": 403,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "12345",
+                    "Name": "الرقم المرجعي"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": " رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العمليه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "12345",
+                            "name": "الرقم المرجعي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "InstaPay TestOne",
+                            "name": "اسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "01578888888",
+                            "Name": "رقم الموبايل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "amount",
+                            "Value": "403",
+                            "Name": "المبلغ المستحق",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

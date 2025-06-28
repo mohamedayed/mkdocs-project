@@ -1,0 +1,651 @@
+{
+  "id": 1,
+  "name": "e-finance migration",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "e-finance migration",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "e-finance migration",
+          "docs": {
+            "Login": {
+              "request": [
+                "client_id : 2043c3eb-9d3f-4fa0-8195-460bd756eb51",
+                "client_secret : #!xm9w3EqsAgOMqCdLiv7jatlz2k97bbegpz59uqWDwrc=",
+                "grant_type : client_credentials"
+              ],
+              "response": {
+                "access_token": "T1amGT21.Idup.9785c359bbf321c7918d84a44a9fc59",
+                "token_type": "Bearer",
+                "expires_in": 59
+              }
+            },
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "24010300000041",
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sn",
+                    "Value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 2,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": " description",
+                    "Value": "Mobile Number: 01069694134 - Email: test23123@tessst12312.tesst",
+                    "Name": "التفاصيل "
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "amount": 2,
+                    "minAmount": 2,
+                    "maxAmount": 2,
+                    "alias": "",
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "BillingAccount": "",
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "brn": "82430",
+                "serviceListVersion": "1",
+                "amount": "2.0",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  },
+                  {
+                    "key": "sn",
+                    "value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 2.28,
+                "Brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "24010300000041",
+                "amount": 2,
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  },
+                  {
+                    "key": "sn",
+                    "value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "202499001196035318",
+                    "Name": "الرقم المرجعي للخدمه"
+                  },
+                  {
+                    "Key": "QRCode",
+                    "Value": "#!lwGZZ8RxmZSpfruk5URByH7FHwjR1Waz/rXYKXA+vFky3mt0XAn8MznA9CjKQ6hi",
+                    "Name": "\r\n      }]",
+                    "Reciepts": [
+                      {
+                        "title": {
+                          "serviceName": "\r\n      }",
+                          "header": {
+                            "data": [
+                              {
+                                "key": "date",
+                                "value": "7/30/2023 2:18:05 PM",
+                                "name": "التاريخ"
+                              },
+                              {
+                                "key": "accountId",
+                                "value": "6",
+                                "name": "رقم الحساب"
+                              },
+                              {
+                                "key": "serviceCode",
+                                "value": "",
+                                "name": "كود الخدمة"
+                              },
+                              {
+                                "key": "transactionId",
+                                "value": "13824499",
+                                "name": "رقم العمليه"
+                              },
+                              {
+                                "Key": "providerTransactionId",
+                                "Value": "202499001196035318",
+                                "Name": "الرقم المرجعي للخدمه"
+                              }
+                            ]
+                          },
+                          "body": {
+                            "data": [
+                              {
+                                "key": "billingAccount",
+                                "value": "24010300000041",
+                                "name": " "
+                              },
+                              {
+                                "key": "description",
+                                "value": "Mobile Number: 01069694134 - Email: test23123@tessst12312.tesst ",
+                                "name": "التفاصيل "
+                              },
+                              {
+                                "key": "amount",
+                                "value": "2.0",
+                                "name": "المبلغ"
+                              },
+                              {
+                                "key": "serviceFees",
+                                "value": "2.28",
+                                "name": "تكلفة الخدمة"
+                              },
+                              {
+                                "key": "totalAmount",
+                                "value": "",
+                                "name": "المبلغ الكلي"
+                              },
+                              {
+                                "key": "QRCode",
+                                "value": "#!lwGZZ8RxmZSpfruk5URByH7FHwjR1Waz/rXYKXA+vFky3mt0XAn8MznA9CjKQ6hi",
+                                "name": "\r\n          }]\r\n      }",
+                                "disclaimer": "",
+                                "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "e-finance migration",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "e-finance migration",
+          "docs": {
+            "Login": {
+              "request": [
+                "client_id : 2043c3eb-9d3f-4fa0-8195-460bd756eb51",
+                "client_secret : #!xm9w3EqsAgOMqCdLiv7jatlz2k97bbegpz59uqWDwrc=",
+                "grant_type : client_credentials"
+              ],
+              "response": {
+                "access_token": "T1amGT21.Idup.9785c359bbf321c7918d84a44a9fc59",
+                "token_type": "Bearer",
+                "expires_in": 59
+              }
+            },
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "41454900",
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "Key": "fromDate",
+                    "Value": "202311"
+                  },
+                  {
+                    "Key": "toDate",
+                    "Value": "202312"
+                  },
+                  {
+                    "Key": "sn",
+                    "Value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 314,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": " Name",
+                    "Value": "اسم العميل :     عبدالفتاح خالد ابوزيد  /  الرقم التأميني :       41454900  /  فترة السداد من (شهر/سنه) :     202311  /  فترة السداد إلي (شهر/سنه) :     202312  /  مكتب تامينات السائق :     5  /  منطقه تامينات السائق :    18  /  حالة الطلب: تم اﻻستعــــــــــــــﻼم ",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "Key": "fromDate",
+                    "Value": "202311",
+                    "Name": "فترة السداد من "
+                  },
+                  {
+                    "Key": "toDate",
+                    "Value": "202312",
+                    "Name": "فترة السداد الى"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "amount": 314,
+                    "minAmount": 314,
+                    "maxAmount": 314,
+                    "alias": "",
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "BillingAccount": "",
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "brn": "82430",
+                "serviceListVersion": "1",
+                "amount": "314.0",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  },
+                  {
+                    "key": "sn",
+                    "value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 2.82,
+                "Brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "41454900",
+                "amount": 314,
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  },
+                  {
+                    "key": "sn",
+                    "value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "202399001195899809",
+                    "Name": "الرقم المرجعي للخدمه"
+                  },
+                  {
+                    "Key": "QRCode",
+                    "Value": "#!kjCb2NG2deCCZz5ICtd1yrNgLIhngjWZa1oSkLozTX7fGoyIgm+SCd8I/UVcQ05H",
+                    "Name": "\r\n      }]",
+                    "Reciepts": [
+                      {
+                        "title": {
+                          "serviceName": "\r\n      }",
+                          "header": {
+                            "data": [
+                              {
+                                "key": "date",
+                                "value": "7/30/2023 2:18:05 PM",
+                                "name": "التاريخ"
+                              },
+                              {
+                                "key": "accountId",
+                                "value": "6",
+                                "name": "رقم الحساب"
+                              },
+                              {
+                                "key": "serviceCode",
+                                "value": "",
+                                "name": "كود الخدمة"
+                              },
+                              {
+                                "key": "transactionId",
+                                "value": "13824499",
+                                "name": "رقم العمليه"
+                              },
+                              {
+                                "Key": "providerTransactionId",
+                                "Value": "202399001195899809",
+                                "Name": "الرقم المرجعي للخدمه"
+                              }
+                            ]
+                          },
+                          "body": {
+                            "data": [
+                              {
+                                "key": "billingAccount",
+                                "value": "41454900",
+                                "name": "الرقم التأمينى"
+                              },
+                              {
+                                "key": "customerName",
+                                "value": "اسم العميل :     عبدالفتاح خالد ابوزيد  /  الرقم التأميني :       41454900  /  فترة السداد من (شهر/سنه) :     202311  /  فترة السداد إلي (شهر/سنه) :     202312  /  مكتب تامينات السائق :     5  /  منطقه تامينات السائق :    18  /  حالة الطلب: تم اﻻستعــــــــــــــﻼم ",
+                                "name": "اسم العميل"
+                              },
+                              {
+                                "key": "fromDate",
+                                "value": "202311",
+                                "name": "فترة السداد من"
+                              },
+                              {
+                                "key": "toDate",
+                                "value": "202312",
+                                "name": "فترة السداد الى"
+                              },
+                              {
+                                "key": "amount",
+                                "value": "314.0",
+                                "name": "المبلغ"
+                              },
+                              {
+                                "key": "serviceFees",
+                                "value": "2.82",
+                                "name": "تكلفة الخدمة"
+                              },
+                              {
+                                "key": "totalAmount",
+                                "value": "316.82",
+                                "name": "المبلغ الكلي"
+                              },
+                              {
+                                "key": "QRCode",
+                                "value": "#!kjCb2NG2deCCZz5ICtd1yrNgLIhngjWZa1oSkLozTX7fGoyIgm+SCd8I/UVcQ05H",
+                                "name": "\r\n          }]\r\n      }",
+                                "disclaimer": "",
+                                "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 4,
+      "name": "e-finance migration",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "e-finance migration",
+          "docs": {
+            "Login": {
+              "request": [
+                "client_id : 2043c3eb-9d3f-4fa0-8195-460bd756eb51",
+                "client_secret : #!xm9w3EqsAgOMqCdLiv7jatlz2k97bbegpz59uqWDwrc=",
+                "grant_type : client_credentials"
+              ],
+              "response": {
+                "access_token": "T1amGT21.Idup.9785c359bbf321c7918d84a44a9fc59",
+                "token_type": "Bearer",
+                "expires_in": 59
+              }
+            },
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "14120120101059",
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sn",
+                    "Value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 15.5,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": " description",
+                    "Value": "مصروفات الطالب Name - 14120120101059-كلية الأقتصاد والعلوم السياسية-الفرقة الرابعة-الفصل الدراسى الأول-2015-2016-انتظام",
+                    "Name": "التفاصيل "
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 3,
+                    "amount": 15.5,
+                    "minAmount": 15.5,
+                    "maxAmount": 15.5,
+                    "alias": "",
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "BillingAccount": "",
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "brn": "82430",
+                "serviceListVersion": "1",
+                "amount": "15.5",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "3"
+                  },
+                  {
+                    "key": "sn",
+                    "value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 5.7,
+                "Brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "14120120101059",
+                "amount": 15.5,
+                "localDate": "2023-12-05T12:41:36",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "3"
+                  },
+                  {
+                    "key": "sn",
+                    "value": "112233"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "202499001196035415",
+                    "Name": "الرقم المرجعي للخدمه"
+                  },
+                  {
+                    "Key": "QRCode",
+                    "Value": "#!lwGZZ8RxmZSpfruk5URByH7FHwjR1Waz/rXYKXA+vFky3mt0XAn8MznA9CjKQ6hi",
+                    "Name": "\r\n      }]",
+                    "Reciepts": [
+                      {
+                        "title": {
+                          "serviceName": "\r\n      }",
+                          "header": {
+                            "data": [
+                              {
+                                "key": "date",
+                                "value": "7/30/2023 2:18:05 PM",
+                                "name": "التاريخ"
+                              },
+                              {
+                                "key": "accountId",
+                                "value": "6",
+                                "name": "رقم الحساب"
+                              },
+                              {
+                                "key": "serviceCode",
+                                "value": "",
+                                "name": "كود الخدمة"
+                              },
+                              {
+                                "key": "transactionId",
+                                "value": "13824499",
+                                "name": "رقم العمليه"
+                              },
+                              {
+                                "Key": "providerTransactionId",
+                                "Value": "202499001196035415",
+                                "Name": "الرقم المرجعي للخدمه"
+                              }
+                            ]
+                          },
+                          "body": {
+                            "data": [
+                              {
+                                "key": "billingAccount",
+                                "value": "14120120101059",
+                                "name": "رقم الطالب "
+                              },
+                              {
+                                "key": "description",
+                                "value": "مصروفات الطالب Name - 14120120101059-كلية الأقتصاد والعلوم السياسية-الفرقة الرابعة-الفصل الدراسى الأول-2015-2016-انتظام ",
+                                "name": "التفاصيل "
+                              },
+                              {
+                                "key": "amount",
+                                "value": "15.5",
+                                "name": "المبلغ"
+                              },
+                              {
+                                "key": "serviceFees",
+                                "value": "5.7",
+                                "name": "تكلفة الخدمة"
+                              },
+                              {
+                                "key": "totalAmount",
+                                "value": "",
+                                "name": "المبلغ الكلي"
+                              },
+                              {
+                                "key": "QRCode",
+                                "value": "#!lwGZZ8RxmZSpfruk5URByH7FHwjR1Waz/rXYKXA+vFky3mt0XAn8MznA9CjKQ6hi",
+                                "name": "\r\n          }]\r\n      }",
+                                "disclaimer": "",
+                                "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

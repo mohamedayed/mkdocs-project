@@ -1,0 +1,257 @@
+{
+  "id": 1,
+  "name": "military prosecution",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "military prosecution",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "military prosecution",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "00000014",
+                "localDate": "4-26-2022 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 120,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "fidel kaldas",
+                    "Name": "الاسم"
+                  },
+                  {
+                    "Key": "penaltyType",
+                    "Value": "تخلف تجنيد",
+                    "Name": "نوع المدفوعة"
+                  },
+                  {
+                    "Key": "billingAccount",
+                    "Value": "00000014",
+                    "Name": "رقم امر التوريد"
+                  },
+                  {
+                    "Key": "nationalId",
+                    "Value": "12312312212312",
+                    "Name": "الرقم القومى"
+                  },
+                  {
+                    "Key": "dueDate",
+                    "Value": "2022-06-26 10:37:06.623",
+                    "Name": "تاريخ الإستحقاق"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 120,
+                    "minAmount": 120,
+                    "maxAmount": 120,
+                    "Data": [
+                      {}
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "120",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "120",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "00000014",
+                "amount": 120,
+                "localDate": "4-26-2022 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/28/2024 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionid",
+                    "value": "32750",
+                    "name": "رقم العملية"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "5/28/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "customerName",
+                            "value": "fidel kaldas",
+                            "name": "الاسم",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "penaltyType",
+                            "value": "تخلف تجنيد",
+                            "name": "نوع المدفوعة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "00000014",
+                            "name": "رقم امر التوريد",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "nationalId",
+                            "value": "12312312212312",
+                            "name": "الرقم القومى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "dueDate",
+                            "value": "2022-06-26 10:37:06.623",
+                            "name": "تاريخ الاستحقاق",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "120.0",
+                            "name": "المبلغ ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

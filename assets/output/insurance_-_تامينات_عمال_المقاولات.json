@@ -1,0 +1,292 @@
+{
+  "id": 1,
+  "name": "insurance - تامينات عمال المقاولات",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "insurance - تامينات عمال المقاولات",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "insurance - تامينات عمال المقاولات",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "061541641",
+                "localDate": "02-15-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "fromDate",
+                    "value": "201904"
+                  },
+                  {
+                    "key": "toDate",
+                    "value": "201906"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 205.5,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "billingAccount",
+                    "value": "061541641",
+                    "name": "الرقم التأمينى"
+                  },
+                  {
+                    "Key": " customerName",
+                    "Value": "رشيد ابراهيم رشيد",
+                    "Name": "إسم العميل "
+                  },
+                  {
+                    "Key": "officeCode",
+                    "Value": "23",
+                    "Name": "مكتب التأمينات للسائق "
+                  },
+                  {
+                    "Key": "zoneCode",
+                    "Value": "9",
+                    "Name": "منطقة التأمينات للسائق "
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 205.5,
+                    "minAmount": "205.50",
+                    "maxAmount": "205.50",
+                    "Data": [
+                      {
+                        "Key": "fromDate",
+                        "Value": "201904",
+                        "Name": "فترة السداد من "
+                      },
+                      {
+                        "Key": "toDate",
+                        "Value": "201906",
+                        "Name": "فترة السداد الى "
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": 20550,
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": 20550,
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "061541641",
+                "amount": 205.5,
+                "localDate": "02-15-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "15/02‏‏/2024 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "TransactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "202312271202312233",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "19:14:29 15/02/2024",
+                            "name": "التاريخ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "accountID",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "11506837",
+                            "name": "رقم العمليه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "202312271202312233",
+                            "name": " الرقم المرجعى ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "61541641",
+                            "Name": "الرقم التأمينى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "رشيد ابراهيم رشيد",
+                            "Name": "إسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "fromDate",
+                            "Value": "201904",
+                            "Name": "فترة السداد من ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "toDate",
+                            "Value": "201906",
+                            "Name": "فترة السداد الى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "officeCode",
+                            "Value": "23",
+                            "Name": "مكتب التأمينات للسائق",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "zoneCode",
+                            "Value": "9",
+                            "Name": "منطقة التأمينات للسائق",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "205.50",
+                            "name": "المبلغ المسدد",
+                            "bold": false,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 2,
+                            "bold": false,
+                            "parameterType": 2,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalAmount",
+                            "Value": "",
+                            "Name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

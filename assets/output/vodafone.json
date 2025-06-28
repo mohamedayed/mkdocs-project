@@ -1,0 +1,448 @@
+{
+  "id": 1,
+  "name": "vodafone",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "CR Vodafone NBA Fakka",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "CR Vodafone NBA Fakka",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01010556396",
+                "LocalDate": "4-26-2022 10:10:20",
+                "Version": "1",
+                "ServiceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": "",
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "offer",
+                    "value": "اشحن للعميل كارت فكة 10.5 وليه 100 وحدة . مكافأتك 1 جنيه",
+                    "name": "\r\n    }]",
+                    "Invoices": [
+                      {
+                        "Sequence": 1,
+                        "Alias": "",
+                        "Amount": "",
+                        "MinAmount": "",
+                        "MaxAmount": "",
+                        "Data": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "Vodafone Cash IN& Out",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Vodafone Cash IN& Out",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "billingAccount": "01090118613",
+                "localDate": "10-11-2023 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "brn",
+                    "value": "82430"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 8,
+                "Brn": 82431,
+                "Data": [
+                  {}
+                ],
+                "Invoices": [
+                  {
+                    "Sequence ": 1,
+                    "alias": "",
+                    "Amount": 8,
+                    "minAmount": "8",
+                    "maxAmount": "8",
+                    "Data": [
+                      {
+                        "key": "offer",
+                        "value": " اشحن للعميل ب8 جنيه رصيد أو أكتر عشان يكسب 70 وحدة ببلاش لمدة يومين. مكافأتك 1 جنيه لو العميل وافق",
+                        "Name": "عرض فودافون"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 4,
+      "name": "Vodafone Flex Renewal (Discount & Static Menu) BILL-7682",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Vodafone Flex Renewal (Discount & Static Menu) BILL-7682",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01002707941",
+                "localDate": "4-26-2022 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1"
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": "",
+                "Brn": 82430,
+                "Data": [],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "amount": 45,
+                    "minAmount": 45,
+                    "maxAmount": 45,
+                    "alias": "تجديد الباقه الحالية: 45 جنية بدلا من 60 جنية",
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "45",
+                        "Name": "\r"
+                      },
+                      {
+                        "Key": "checkDiscount",
+                        "Value": "false",
+                        "Name": "\r"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 2,
+                    "amount": 45,
+                    "minAmount": 45,
+                    "maxAmount": 45,
+                    "alias": "45",
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "45",
+                        "Name": "\r"
+                      },
+                      {
+                        "Key": "checkDiscount",
+                        "Value": "true",
+                        "Name": "\r"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 3,
+                    "amount": 70,
+                    "minAmount": 70,
+                    "maxAmount": 70,
+                    "alias": "70",
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "70",
+                        "Name": "\r"
+                      },
+                      {
+                        "Key": "checkDiscount",
+                        "Value": "true",
+                        "Name": "\r"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 4,
+                    "amount": 100,
+                    "minAmount": 100,
+                    "maxAmount": 100,
+                    "alias": "100",
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "100",
+                        "Name": "\r"
+                      },
+                      {
+                        "Key": "checkDiscount",
+                        "Value": "true",
+                        "Name": "\r"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 5,
+                    "amount": 150,
+                    "minAmount": 150,
+                    "maxAmount": 150,
+                    "alias": "150",
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "150",
+                        "Name": "\r"
+                      },
+                      {
+                        "Key": "checkDiscount",
+                        "Value": "true",
+                        "Name": "\r"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 6,
+                    "amount": 300,
+                    "minAmount": 300,
+                    "maxAmount": 300,
+                    "alias": "300",
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "300",
+                        "Name": "\r"
+                      },
+                      {
+                        "Key": "checkDiscount",
+                        "Value": "true",
+                        "Name": "\r"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": 300,
+                "brn": "82430",
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": 300,
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01090018714",
+                "amount": 290,
+                "localDate": "4-26-2022 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/28/2024 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionid",
+                    "value": "32750",
+                    "name": "رقم العملية"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "5/28/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "billingAccount",
+                            "value": "01002707941",
+                            "name": "رقم الهاتف",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "290",
+                            "name": "المبلغ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            },
+            "Second Inquiry": {
+              "request": {
+                "BillingAccount": "01002707941",
+                "localDate": "4-26-2022 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "Key": "brn",
+                    "Value": "82430",
+                    "Name": "\r"
+                  },
+                  {
+                    "Key": "Sequence",
+                    "Value": "6",
+                    "Name": "\r"
+                  },
+                  {
+                    "Key": "checkDiscount",
+                    "Value": "true",
+                    "Name": "\r"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 300,
+                "Brn": 82430,
+                "Data": [],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "amount": 300,
+                    "minAmount": 300,
+                    "maxAmount": 300,
+                    "alias": "المبلغ : 300",
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "300",
+                        "Name": "\r"
+                      },
+                      {
+                        "Key": "checkDiscount",
+                        "Value": "false",
+                        "Name": "\r"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

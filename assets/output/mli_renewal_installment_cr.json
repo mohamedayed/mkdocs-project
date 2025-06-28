@@ -1,0 +1,272 @@
+{
+  "id": 1,
+  "name": "mli renewal installment cr",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "mli renewal installment cr",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "mli renewal installment cr",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "00345013",
+                "localDate": "4-26-2022 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "PolicyNumber",
+                    "value": "00377019"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": null,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "customerName",
+                    "value": "السيد / عمرو مصطفي حافظ علي",
+                    "name": "اسم صاحب الوثيقة"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "رقم الوثيقة 00377019  المبلغ  2376.00",
+                    "amount": 2376,
+                    "minAmount": 2376,
+                    "maxAmount": 2376,
+                    "Data": [
+                      {
+                        "key": "policyNumber",
+                        "value": "00377019",
+                        "name": "رقم الوثيقة"
+                      },
+                      {
+                        "key": "premiumDueDate",
+                        "value": "08/01/2024",
+                        "name": "تاريخ إستحقاق الفاتورة"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "2376.00",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "2376.00",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "00345013",
+                "amount": 2376,
+                "localDate": "4-26-2022 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "9909",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "accountID",
+                          "value": "",
+                          "name": "رقم الحساب",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceCode",
+                          "value": "XXX",
+                          "name": "كود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "1547963",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "key": "billingAccount",
+                          "value": "00345013",
+                          "name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "policyNumber",
+                          "value": "00377019",
+                          "name": "رقم الوثيقة",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "customerName",
+                          "value": "السيد / عمرو مصطفي حافظ علي",
+                          "name": "اسم صاحب الوثيقة",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "premiumDueDate",
+                          "value": "08/01/2024",
+                          "name": "تاريخ إستحقاق الفاتورة",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "premiumAmountDue",
+                          "value": "2376.0",
+                          "name": "قيمة القسط",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "customerNotificationFees",
+                          "value": "0.0",
+                          "name": "مصاريف انذار",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "amount",
+                          "value": "2376.0",
+                          "name": "مبلغ العملية",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceFees",
+                          "value": "",
+                          "name": "تكلفه مزود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "totalAmount",
+                          "value": "",
+                          "name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "providerTransactionID",
+                          "value": "9909",
+                          "name": "الرقم المرجعي ",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "policyStatus",
+                          "value": "اعاده سرايان برجاء التوجه للفرع لاستكمال الإجراءات",
+                          "name": "",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

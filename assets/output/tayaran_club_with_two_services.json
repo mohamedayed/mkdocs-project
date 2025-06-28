@@ -1,0 +1,390 @@
+{
+  "id": 1,
+  "name": "tayaran club with two services",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "tayaran club with two services",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "tayaran club with two services",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "999111999",
+                "amount": 10,
+                "localDate": "2023-11-23 15:32:25",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "68495"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 732.71,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "membershipName",
+                    "value": "عفيفى احمد محمد هلال",
+                    "Name": "اسم العضو"
+                  },
+                  {
+                    "key": "numberOfPersons",
+                    "value": "6",
+                    "Name": "عدد الاعضاء"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 68491,
+                    "alias": "",
+                    "amount": 732.71,
+                    "minAmount": 732.71,
+                    "maxAmount": 732.71,
+                    "extraData": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "101",
+                "amount": 732.71,
+                "localDate": "2023-11-15 15:32:25",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "68491"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "15/11/2023 4:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "نادى الطيران فرع التجمع"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "membershipName",
+                          "Value": "عفيفى احمد محمد هلال",
+                          "Name": "اسم العضو",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "billingAccount",
+                          "value": "101",
+                          "name": "رقم العضوية",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold+C9": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "numberOfPersons",
+                          "Value": "6",
+                          "Name": "عدد الاعضاء ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "Amount",
+                          "Value": "732.71",
+                          "Name": "المبلغ ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": false,
+                          "Name": "تكلفه الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "tayaran club with two services",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "tayaran club with two services",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "999111999",
+                "localDate": "11-23-2023 03:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "3"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 10,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "membershipName",
+                    "value": "alahly momkn test",
+                    "Name": "اسم العضو"
+                  },
+                  {
+                    "key": "numberOfPersons",
+                    "value": "2",
+                    "Name": "عدد الاعضاء"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 68495,
+                    "alias": "",
+                    "amount": 10,
+                    "minAmount": 10,
+                    "maxAmount": 10,
+                    "extraData": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "999111999",
+                "amount": 10,
+                "localDate": "2023-11-23 15:32:25",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "68495"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "23/11/2023 4:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "نادى الطيران فرع التجمع - عضوية عاملة طيار"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "membershipName",
+                          "Value": "alahly momkn test",
+                          "Name": "اسم العضو",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "billingAccount",
+                          "value": "999111999",
+                          "name": "رقم العضوية",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "numberOfPersons",
+                          "Value": "2",
+                          "Name": "عدد الاعضاء ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "Amount",
+                          "Value": "10",
+                          "Name": "المبلغ ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": false,
+                          "Name": "تكلفه الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

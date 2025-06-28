@@ -1,0 +1,305 @@
+{
+  "id": 1,
+  "name": "giza water hydrocomp",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "giza water hydrocomp",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "giza water hydrocomp",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "530212654",
+                "localDate": "6-15-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 115.5,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "فتحى سعيد  رمضان ابو العلا",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 115.5,
+                    "minAmount": 115.5,
+                    "maxAmount": 115.5,
+                    "Data": [
+                      {
+                        "Key": "consump",
+                        "Value": "7",
+                        "Name": "الاستهلاك"
+                      },
+                      {
+                        "Key": "prevReading",
+                        "Value": "137",
+                        "Name": "القراءة السابقة"
+                      },
+                      {
+                        "Key": "currReading",
+                        "Value": "144",
+                        "Name": "القراءة الحالية"
+                      },
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "115.5",
+                        "Name": "قيمة الفاتورة"
+                      },
+                      {
+                        "Key": "dueDate",
+                        "Value": "2024-06-30 00:00:00Z",
+                        "Name": "تاريخ الاستحقاق للفاتورة"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "530212654",
+                "amount": 115.5,
+                "localDate": "6-15-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "06/15/2024 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "32750",
+                    "name": "رقم العملية"
+                  },
+                  {
+                    "key": "calcType",
+                    "value": "فعلى",
+                    "name": "نوع المحاسبة"
+                  },
+                  {
+                    "key": "address",
+                    "value": "ش رشاد من ش الششتاوى",
+                    "name": "العنوان"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "06/15/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "billingAccount",
+                            "value": "530212654",
+                            "name": "رقم حساب العميل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "billNumber",
+                            "value": "530212654044",
+                            "name": "رقم الفاتورة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "dueDate",
+                            "value": "2024-06-30 00:00:00Z",
+                            "name": "تاريخ الاستحقاق للفاتورة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "فتحى سعيد   رمضان ابو العلا",
+                            "name": "اسم العميل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "consump",
+                            "value": "7",
+                            "name": "الاستهلاك",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "prevReading",
+                            "value": "137",
+                            "name": "القراءة السابقة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "currReading",
+                            "value": "144",
+                            "name": "القراءة الحالية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "calcType",
+                            "value": "فعلى",
+                            "name": "نوع المحاسبة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "address",
+                            "value": "ش رشاد من ش الششتاوى",
+                            "name": "العنوان",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "115.5",
+                            "name": "قيمة الفاتورة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ServiceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

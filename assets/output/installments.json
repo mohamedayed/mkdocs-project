@@ -1,0 +1,5157 @@
+{
+  "id": 1,
+  "name": "installments",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "Agmeen Microservice",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Agmeen Microservice",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "29307012303243",
+                "localDate": "11-08-2023 03:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "2"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 710,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "customerName",
+                    "value": "فاطمه دسوقى لطفى احمد",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 68479,
+                    "alias": "",
+                    "amount": 710,
+                    "minAmount": 710,
+                    "maxAmount": 710,
+                    "extraData": [
+                      {
+                        "key": "dueDate",
+                        "value": "13-10-2023",
+                        "Name": "تاريخ القسط"
+                      },
+                      {
+                        "key": "loanNumber",
+                        "value": "607",
+                        "Name": "رقم القرض"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29307012303243",
+                "amount": 710,
+                "localDate": "2023-11-12 15:32:25",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "68479"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "08/11/2023 4:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "جمعية تنمية المجتمع بالعجميين الفيوم"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "customerName",
+                          "Value": "فاطمه دسوقى لطفى احمد",
+                          "Name": "اسم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "billingAccount",
+                          "value": "29307012303243",
+                          "name": "الرقم القومى",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "Amount",
+                          "Value": "710.0",
+                          "Name": "قيمة القسط ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "loanNumber",
+                          "Value": "607",
+                          "Name": "رقم القرض ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "dueDate",
+                          "Value": "13-10-2023",
+                          "Name": "تاريخ القسط ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": false,
+                          "Name": "تكلفه الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "Ana El Masri",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Ana El Masri",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "27906160102129",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 2299,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "billingAccount",
+                    "value": "27906160102129",
+                    "name": "الرقم القومي"
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "رشا بيومى عبدالله شلقانى",
+                    "Name": "الاسم"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "sequence": 1,
+                    "alias": "",
+                    "amount": 2299,
+                    "minAmount": 2299,
+                    "maxAmount": 2299,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "2023-12-05",
+                        "Name": "تاريخ الاستحقاق"
+                      },
+                      {
+                        "Key": "installmentNumber",
+                        "Value": "7",
+                        "Name": "رقم القسط"
+                      },
+                      {
+                        "Key": "installmentCount",
+                        "Value": "12",
+                        "Name": "عدد الاقساط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "27906160102129",
+                "amount": 2299,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "64ae8d78-bc2c-4227-9306-6609841564f7",
+                    "Name": "الرقم المرجعي"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "Date",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "Account Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "Transaction Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "billingAccount",
+                            "Value": "27906160102129",
+                            "Name": "الرقم القومي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "رشا بيومى عبدالله شلقانى",
+                            "Name": "الاسم",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "dueDate",
+                            "Value": "2023-12-05",
+                            "Name": "تاريخ الاستحقاق",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "installmentNumber",
+                            "Value": "7",
+                            "Name": "رقم القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "installmentCount",
+                            "Value": "12",
+                            "Name": "عدد الاقساط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "providerTransactionId",
+                            "value": "64ae8d78-bc2c-4227-9306-6609841564f7",
+                            "name": "الرقم المرجعي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "2299.0",
+                            "Name": "المبلغ ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 4,
+      "name": "Cartona",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Cartona",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "159079244",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 0,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "كنزي ماركت",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 0,
+                    "minAmount": 1,
+                    "maxAmount": 999999,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "159079244",
+                "amount": 10,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "accountID",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "providerTransactionID",
+                            "value": "116952801341",
+                            "name": "الرقم المرجعي",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "11506837",
+                            "name": "رقم العمليه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "billingAccount",
+                            "Value": "159079244",
+                            "Name": "كود العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "كنزي ماركت",
+                            "Name": "اسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "0",
+                            "Name": "المبلغ المستحق  ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "paidAmount",
+                            "Value": "10",
+                            "Name": "المبلغ المدفوع  ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "serviceFees",
+                            "Value": false,
+                            "Name": "تكلفه الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 2,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalAmount",
+                            "Value": "",
+                            "Name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 5,
+      "name": "Contact",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Contact",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "29001010123456",
+                "localDate": "11-12-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 427.26,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "POS test test",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 427.26,
+                    "minAmount": 1,
+                    "maxAmount": 427.26,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "2023-12-15T00:00:0",
+                        "Name": "تاريخ الاستحقاق"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29001010123456",
+                "amount": 427.26,
+                "localDate": "11-13-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "13/11/2023 11:21:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "key": "providerTransactionID",
+                    "value": "13112023",
+                    "name": "الرقم المرجعي"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "accountID",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "11506837",
+                            "name": "رقم العمليه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionID",
+                            "value": "13112023",
+                            "name": "الرقم المرجعي",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "29001010123456",
+                            "Name": "الرقم القومى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "POS test test",
+                            "Name": "اسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "427.26",
+                            "Name": "قيمة القسط ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "paidAmount",
+                            "Value": "427.26",
+                            "Name": "المبلغ االمسدد  ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "serviceFees",
+                            "Value": false,
+                            "Name": "تكلفه الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 2,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalAmount",
+                            "Value": "",
+                            "Name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 6,
+      "name": "Drive",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Drive",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "28809178800531",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": null,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "احمد سعيد محمد السيد مرعى",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "Key": "customerNumber",
+                    "Value": "01220866335",
+                    "Name": "رقم التليفون"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": null,
+                    "minAmount": 1,
+                    "maxAmount": 999999,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "28809178800531",
+                "amount": 1000,
+                "localDate": "8-24-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "24/08/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "درايف للتمويل "
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "accountID",
+                          "value": "",
+                          "name": "رقم الحساب",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceCode",
+                          "value": "XXX",
+                          "name": "كود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "customerName",
+                          "Value": "احمد سعيد محمد السيد مرعى",
+                          "Name": "اسم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "customerNumber",
+                          "Value": "01220866335",
+                          "Name": "رقم التليفون",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "billingAccount",
+                          "Value": "28809178800531",
+                          "Name": "الرقم التعريفى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "Amount",
+                          "Value": "1000",
+                          "Name": "المبلغ ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "providerTransactionId",
+                          "Value": "246333",
+                          "Name": "الرقم المرجعى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": false,
+                          "Name": "تكلفه الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 7,
+      "name": "ESED",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "ESED",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "29606112100673",
+                "localDate": "9-27-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 35808,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "ابراهيم السباعي محمد السباعي البديوي",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 35808,
+                    "minAmount": 35808,
+                    "maxAmount": 35808,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "1/24/2021 12:00:00 AM",
+                        "Name": "تاريخ القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29606112100673",
+                "amount": 35808,
+                "localDate": "9-27-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "01/10/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "accountID",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "providerTransactionID",
+                            "value": "20010032118002007",
+                            "name": "الرقم المرجعي",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "11506837",
+                            "name": "رقم العمليه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "customerName",
+                            "Value": "ابراهيم السباعي محمد السباعي البديوي",
+                            "Name": "اسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "29606112100673",
+                            "Name": "رقم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "dueDate",
+                            "Value": "1/24/2021 12:00:00 AM",
+                            "Name": "تاريخ القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "35808.0000",
+                            "Name": "مبلغ القسط ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "serviceFees",
+                            "Value": false,
+                            "Name": "تكلفه الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 2,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalAmount",
+                            "Value": "",
+                            "Name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 8,
+      "name": "Erada",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Erada",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "29806052401856",
+                "localDate": "5-28-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 0.5,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "عوني رمضان فؤاد نورالدين",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "Key": "billingAccount",
+                    "Value": "29806052401856",
+                    "Name": "الرقم القومى"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 0.5,
+                    "minAmount": 1,
+                    "maxAmount": 1,
+                    "Data": [
+                      {
+                        "Key": "installmentAmount",
+                        "Value": "1080",
+                        "Name": "قيمة القسط"
+                      },
+                      {
+                        "Key": "penaltyAmount",
+                        "Value": "312.59",
+                        "Name": "قيمة الغرامة"
+                      },
+                      {
+                        "Key": "remainingInstallmentsAmount",
+                        "Value": "0.5",
+                        "Name": "قيمة الاقساط المتبقية"
+                      },
+                      {
+                        "Key": "unpaidInstallmentsCnt",
+                        "Value": "8",
+                        "Name": "عدد الاقساط المتبقية"
+                      },
+                      {
+                        "Key": "paidInstallmentsCnt",
+                        "Value": "1",
+                        "Name": "عدد الاقساط المدفوعة"
+                      },
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "0.5",
+                        "Name": "قيمة الفاتورة"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "10",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "10",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29806052401856",
+                "amount": 10,
+                "localDate": "05-28-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/28/2024 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionid",
+                    "value": "32750",
+                    "name": "رقم العملية"
+                  },
+                  {
+                    "key": "providerTransactionId",
+                    "value": "121212",
+                    "name": "الرقم المرجعى"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "5/28/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "121212",
+                            "name": "الرقم المرجعى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "عوني رمضان فؤاد نورالدين",
+                            "name": "اسم العميل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "29806052401856",
+                            "name": "الرقم القومى",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "installmentAmount",
+                            "value": "1080",
+                            "name": "قيمة القسط",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "penaltyAmount",
+                            "value": "312.59",
+                            "name": "قيمة الغرامة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "lateInstallments",
+                            "value": "8",
+                            "name": "عدد الاقساط المتأخرة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "providerDueAmount",
+                            "value": "8952.59",
+                            "name": "قيمة الفاتورة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "remainingInstallmentsAmount",
+                            "value": "8952.59",
+                            "name": "قيمة الاقساط المتبقية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "unPaidInstallmentsCount",
+                            "value": "8",
+                            "name": "عدد الاقساط المتبقية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "paidInstallmentsCount",
+                            "value": "1",
+                            "name": "عدد الاقساط المدفوعة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "10.0",
+                            "name": "المبلغ المدفوع",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 9,
+      "name": "FinBi",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "FinBi",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "29511252700751",
+                "localDate": "5-28-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 4039,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "billingAccount",
+                    "Value": "29511252700751",
+                    "Name": "الرقم القومى"
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "محمد احمد كامل حبشي",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 4039,
+                    "minAmount": 1,
+                    "maxAmount": 4039,
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "4039.00",
+                        "Name": "قيمة القسط"
+                      },
+                      {
+                        "Key": "penaltyAmount",
+                        "Value": "0.00",
+                        "Name": "غرامة التأخير"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "20",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "20",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29511252700751",
+                "amount": 20,
+                "localDate": "05-28-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/28/2024 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionid",
+                    "value": "32750",
+                    "name": "رقم العملية"
+                  },
+                  {
+                    "key": "providerTransactionId",
+                    "value": "530010000117002009",
+                    "name": "الرقم المرجعى"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "5/28/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "530010000117002009",
+                            "name": "الرقم المرجعى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "29511252700751",
+                            "name": "الرقم القومى",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "محمد احمد كامل حبشي",
+                            "name": "اسم العميل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "providerDueAmount",
+                            "value": "4039.00",
+                            "name": "قيمة القسط",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "penaltyAmount",
+                            "value": "0.00",
+                            "name": "غرامة التأخير",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "20.0",
+                            "name": "المبلغ المسدد",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 10,
+      "name": "Forsa",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Forsa",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "011259893380",
+                "localDate": "5-28-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 10498.94,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "BillingAccount",
+                    "Value": "011259893380",
+                    "Name": "رقم الموبايل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 10498.94,
+                    "minAmount": 1,
+                    "maxAmount": 10498.94,
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "10498.94",
+                        "Name": "قيمة القسط"
+                      },
+                      {
+                        "Key": "dueDate",
+                        "Value": "2024-05-28",
+                        "Name": "تاريخ الاستحقاق"
+                      },
+                      {
+                        "Key": "issueDate",
+                        "Value": "2024-05-28",
+                        "Name": "تاريخ الاصدار"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "100",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "100",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "011259893380",
+                "amount": 100,
+                "localDate": "5-28-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/29/2024 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "32750",
+                    "name": "Transaction Code"
+                  },
+                  {
+                    "key": "providerTransactionId",
+                    "value": "7453",
+                    "name": "الرقم المرجعى"
+                  },
+                  {
+                    "key": "billNumber",
+                    "value": "",
+                    "name": "رقم الفاتورة"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "05/28/2024 2:32:59 PM",
+                            "name": "Date",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "Service Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "Account Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "",
+                            "name": "Transaction Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "billNumber",
+                            "value": "3rfsqbb8ls",
+                            "name": "رقم الفاتورة",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "providerTransactionId",
+                            "value": "7453",
+                            "name": "الرقم المرجعى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "011259893380",
+                            "name": "رقم الموبايل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "providerDueAmount",
+                            "value": "10498.94",
+                            "name": "قيمة القسط",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "100",
+                            "name": "المبلغ المسدد",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ServiceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 11,
+      "name": "Froneri",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Froneri",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "10831963460000",
+                "LocalDate": "2024-05-17 10:10:20",
+                "Version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "3"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 0,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "billingAccount",
+                    "Value": "10831963460000",
+                    "Name": "كود الموظف"
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "محمود كمال عمر",
+                    "Name": "إسم الموظف"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 67153,
+                    "alias": "",
+                    "amount": 0,
+                    "minAmount": 1,
+                    "maxAmount": 999999,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "version": "1",
+                "servicelistVersion": "1",
+                "brn": 82430,
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "brn": 82430,
+                "data": [],
+                "amount": "",
+                "fees": "",
+                "taxes": "",
+                "totalAmount": "\r"
+              }
+            },
+            "Payment": {
+              "request": {
+                "billingAccount": "10831963460000",
+                "amount": 100,
+                "version": "1",
+                "serviceListVersion": "1",
+                "brn": 82430,
+                "localDate": "05-17-2024 10:12:12",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/17/2024 10:12:12 AM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "32750",
+                    "name": "رقم العمليه"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "05/17/2024 10:12:12 AM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceId",
+                            "value": "3016",
+                            "name": "كود الخدمه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العمليه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "billingAccount",
+                            "value": "10831963460000",
+                            "name": "كود الموظف",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "محمود كمال عمر",
+                            "name": "إسم الموظف",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "dueDate",
+                            "value": "3/11/2024",
+                            "name": "تاريخ الفاتوره",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "amount",
+                            "value": "100",
+                            "name": "المبلغ المدفوع",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 12,
+      "name": "Halan",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Halan",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "billingAccount": "01794035249",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 255,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "billingAccount",
+                    "value": "01794906514",
+                    "name": "رقم الهاتف"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 255,
+                    "minAmount": 1,
+                    "maxAmount": 255,
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "255.0",
+                        "name": "قيمة القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01794035249",
+                "amount": 255,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "66265ad19559fbfda6b0aea2",
+                    "Name": "الرقم المرجعي"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "Date",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceId",
+                            "value": "364",
+                            "name": "Service Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "Account Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionid",
+                            "value": "32750",
+                            "name": "Transaction Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "providerTransactionId",
+                            "Value": "66265ad19559fbfda6b0aea2",
+                            "Name": "الرقم المرجعي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "01794906514",
+                            "Name": "رقم الهاتف",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "providerDueAmount",
+                            "Value": 255,
+                            "Name": "قيمة القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": 255,
+                            "Name": "المبلغ المسدد",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 13,
+      "name": "Haytai",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Haytai",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "29811091402154",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 2163,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "billingAccount",
+                    "value": "01794906514",
+                    "name": "الرقم القومي"
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "محمود السيد شحاته السيد",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "sequence": 1,
+                    "alias": "",
+                    "amount": 2163,
+                    "minAmount": 100,
+                    "maxAmount": 2163,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "7/8/2024 12:00:00 AM",
+                        "Name": "تاريخ القسط"
+                      },
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "2163.0000",
+                        "Name": "قيمة القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29811091402154",
+                "amount": 100,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "210020022864002003",
+                    "Name": "الرقم المرجعي"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "Date",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "Account Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "Transaction Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "210020022864002003",
+                            "name": "الرقم المرجعي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "29811091402154",
+                            "Name": "الرقم القومي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "محمود السيد شحاته السيد",
+                            "Name": "إسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "providerDueAmount",
+                            "Value": "2163.0000",
+                            "Name": "قيمة القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "penaltyAmount",
+                            "Value": "496.0000",
+                            "Name": "غرامة التأخير",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "100",
+                            "Name": "المبلغ المسدد",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 14,
+      "name": "I-Business",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "I-Business",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01002199803",
+                "localDate": "02-15-2024 03:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "4"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 50,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "billingAccount",
+                    "value": "01002199803",
+                    "Name": "رقم الهاتف"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 68500,
+                    "alias": "",
+                    "amount": 50,
+                    "minAmount": 50,
+                    "maxAmount": 5000,
+                    "extraData": [
+                      {
+                        "key": "issueDate",
+                        "value": "01-09-2023",
+                        "Name": "تاريخ الفاتورة"
+                      },
+                      {
+                        "key": "providerDueAmount",
+                        "value": "50",
+                        "Name": "مبلغ العملية"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "68500"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01002199803",
+                "amount": 55,
+                "localDate": "2024-02-15 15:32:25",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "68500"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "15/02/2024 4:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "اي بيزنس"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "key": "billingAccount",
+                          "value": "01002199803",
+                          "name": "رقم الهاتف",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "issueDate",
+                          "Value": "01-09-2023",
+                          "Name": "تاريخ الفاتورة ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "Amount",
+                          "Value": "55",
+                          "Name": "مبلغ العملية ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": false,
+                          "Name": "تكلفه الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "extraInfoAr",
+                          "value": "للاستعلام كلم 01011125078 واتساب ",
+                          "name": "بيانات اضافية",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 15,
+      "name": "Kafr Aleim",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Kafr Aleim",
+          "docs": {
+            "Payment": {
+              "request": {
+                "billingAccount": "19281324343241",
+                "amount": 100,
+                "version": "1",
+                "serviceListVersion": "1",
+                "brn": 82430,
+                "localDate": "05-17-2024 10:12:12",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/17/2024 10:12:12 AM",
+                "data": [
+                  {
+                    "key": "transactionid",
+                    "value": "32750",
+                    "name": "Transaction Code"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "05/17/2024 10:12:12 AM",
+                            "name": "Date",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceId",
+                            "value": "2036",
+                            "name": "Service Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "Account Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "customerName",
+                            "value": "جميل فاضل محمود",
+                            "name": "إسم العميل",
+                            "bold": true,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "19281324343241",
+                            "name": "الرقم القومي",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "100",
+                            "name": "قيمة القسط",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "dueDate",
+                            "value": "01-05-2024",
+                            "name": "تاريخ القسط",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 16,
+      "name": "Money Fellows",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Money Fellows",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "23623623623423",
+                "localDate": "12-22-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 27500,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "POS Test External Merchants",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "Key": "BillingAccount",
+                    "Value": "23623623623423",
+                    "Name": "رقم البطاقة"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 27500,
+                    "minAmount": 27500,
+                    "maxAmount": 27500,
+                    "Data": [
+                      {
+                        "Key": "description",
+                        "Value": "مستحقات 11 اقساط لعدد 1 جمعيات حتى 01 نوفمبر 2024",
+                        "Name": "تفاصيل القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "23623623623423",
+                "amount": 27500,
+                "localDate": "12-22-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 17,
+      "name": "Reefy",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Reefy",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "29110121100079",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 2247,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "billingAccount",
+                    "Value": "29110121100079",
+                    "Name": "الرقم القومي "
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "احمد حمدي حامد بغيده",
+                    "Name": "إسم العميل "
+                  }
+                ],
+                "invoices": [
+                  {
+                    "sequence": 1,
+                    "alias": "",
+                    "amount": 2247,
+                    "minAmount": 2247,
+                    "maxAmount": 2247,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "10/26/2022 12:00:00 AM",
+                        "Name": "تاريخ القسط"
+                      },
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "2247.0000",
+                        "Name": "قيمة القسط "
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29110121100079",
+                "amount": 2247,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "870760005308001016",
+                    "Name": "الرقم المرجعي"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": " رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العمليه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "providerTransactionId",
+                            "Value": "870760005308001016",
+                            "Name": "الرقم المرجعي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "29110121100079",
+                            "Name": "الرقم القومي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "احمد حمدي حامد بغيده",
+                            "Name": "إسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "providerDueAmount",
+                            "Value": "2247.0000",
+                            "Name": "قيمة القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "penaltyAmount",
+                            "Value": "942.0000",
+                            "Name": "غرامة التأخير",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "2247",
+                            "Name": "المبلغ المسدد",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 18,
+      "name": "Rise Egypt",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Rise Egypt",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01578888888",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 403,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "InstaPay TestOne",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "Key": "billingAccount",
+                    "Value": "01578888888",
+                    "Name": "رقم الموبايل "
+                  }
+                ],
+                "invoices": [
+                  {
+                    "sequence": 1,
+                    "alias": "",
+                    "amount": 403,
+                    "minAmount": 403,
+                    "maxAmount": 403,
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "403",
+                        "Name": " المبلغ المستحق"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "403",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "403",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01578888888",
+                "amount": 403,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "12345",
+                    "Name": "الرقم المرجعي"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": " رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العمليه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "12345",
+                            "name": "الرقم المرجعي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "InstaPay TestOne",
+                            "name": "اسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "01578888888",
+                            "Name": "رقم الموبايل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "amount",
+                            "Value": "403",
+                            "Name": "المبلغ المستحق",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 19,
+      "name": "Rizkallah",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Rizkallah",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "123456",
+                "localDate": "02-15-2024 03:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "3"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 100,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "customerName",
+                    "value": "محسن حسن",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "key": "billingAccount",
+                    "value": "123456",
+                    "Name": "رقم العقد"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 68505,
+                    "alias": "",
+                    "amount": 100,
+                    "minAmount": 100,
+                    "maxAmount": 100,
+                    "extraData": [
+                      {
+                        "key": "invoiceDate",
+                        "value": "01-01-2024",
+                        "Name": "تاريخ الفاتورة"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "68505"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "123456",
+                "amount": 100,
+                "localDate": "2024-02-15 15:32:25",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "68505"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "15/02/2024 4:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "رزق الله"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "key": "customerName",
+                          "value": "محسن حسن",
+                          "name": "اسم العميل",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "billingAccount",
+                          "value": "123456",
+                          "name": " رقم العقد",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "invoiceDate",
+                          "Value": "01-01-2024",
+                          "Name": "تاريخ الفاتورة ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "issueDate",
+                          "Value": "01-02-2024",
+                          "Name": "تاريخ الانتهاء ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "Amount",
+                          "Value": "100",
+                          "Name": "قيمة القسط",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": false,
+                          "Name": "تكلفه الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 20,
+      "name": "SEDAP",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "SEDAP",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "28405121100644",
+                "localDate": "1-28-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 501.5,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "شيماء محمود محمد المرسي",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 501.5,
+                    "minAmount": 501.5,
+                    "maxAmount": 501.5,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "1/29/2024 12:00:00 AM",
+                        "Name": "تاريخ القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "28405121100644",
+                "amount": 501.5,
+                "localDate": "1-28-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "01/28/2024 2:32:59 PM",
+                "data": [
+                  {
+                    "key": "transactionid",
+                    "value": "32750",
+                    "name": "Transaction Code"
+                  },
+                  {
+                    "key": "providerTransactionId",
+                    "value": "30110038126005024",
+                    "name": "الرقم المرجعى"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "01/28/2024 2:32:59 PM",
+                            "name": "Date",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceId",
+                            "value": "",
+                            "name": "Service Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "Account Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionid",
+                            "value": "",
+                            "name": "Transaction Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "30110038126005024",
+                            "name": "الرقم المرجعى",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "28405121100644",
+                            "name": "الرقم القومى",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "شيماء محمود محمد المرسي",
+                            "name": "اسم العميل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "Amount",
+                            "value": "501.5",
+                            "name": "قيمة القسط",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "penaltyAmount",
+                            "value": "0.0000",
+                            "name": "غرامة التأخير",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "ServiceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 21,
+      "name": "Sandah",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Sandah",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "27111292602241",
+                "localDate": "11-14-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 13500,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "حمديه عبدالسميع رضوان محمد",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 13500,
+                    "minAmount": 1,
+                    "maxAmount": 13500,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "18/11/2023 12:00:00 AM",
+                        "Name": "تاريخ القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "27111292602241",
+                "amount": 100,
+                "localDate": "11-14-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "14/11/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "key": "providerTransactionId",
+                    "value": "800030005653001005",
+                    "name": "الرقم المرجعي",
+                    "type": "1,2,3,4",
+                    "alignment": 1,
+                    "bold": false,
+                    "fontSize": "0,1,2"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "accountID",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "11506837",
+                            "name": "رقم العمليه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "providerTransactionId",
+                            "value": "800030005653001005",
+                            "name": "الرقم المرجعي",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "27111292602241",
+                            "Name": "الرقم القومى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "حمديه عبدالسميع رضوان محمد",
+                            "Name": "اسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "dueDate",
+                            "Value": "18/11/2023 12:00:00 AM",
+                            "Name": "تاريخ القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "13500.00",
+                            "Name": "قيمة القسط ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "penaltyAmount",
+                            "Value": "0000.00",
+                            "Name": "غرامة التأخير",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "paidAmount",
+                            "Value": "100.00",
+                            "Name": "المبلغ المسدد",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "serviceFees",
+                            "Value": false,
+                            "Name": "تكلفه الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 2,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalAmount",
+                            "Value": "",
+                            "Name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 22,
+      "name": "Sandah New",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Sandah New",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "29404051302497",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 23451,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "billingAccount",
+                    "Value": "29404051302497",
+                    "Name": "الرقم القومي "
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "رامي محمود عشري عبدالله",
+                    "Name": "إسم العميل "
+                  }
+                ],
+                "invoices": [
+                  {
+                    "sequence": 1,
+                    "alias": "",
+                    "amount": 23451,
+                    "minAmount": 1,
+                    "maxAmount": 30000,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "2024-12-26",
+                        "Name": "تاريخ القسط "
+                      },
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "23451",
+                        "Name": "قيمة القسط "
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "29404051302497",
+                "amount": 23460,
+                "localDate": "1-26-2025 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "26/01/2025 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "1",
+                    "Name": "الرقم المرجعي"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العمليه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "providerTransactionId",
+                            "Value": "1",
+                            "Name": "الرقم المرجعي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "29507022500992",
+                            "Name": "الرقم القومي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "نعيم سمير فؤاد نعيم",
+                            "Name": "إسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "dueDate",
+                            "Value": "2024-12-26",
+                            "Name": "تاريخ القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "providerDueAmount",
+                            "Value": "23451",
+                            "Name": "قيمة القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "penalties",
+                            "Value": "0.0000",
+                            "Name": "غرامة التأخير",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "23460",
+                            "Name": "المبلغ المسدد",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 23,
+      "name": "Seniorita",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Seniorita",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "82100000278",
+                "LocalDate": "05-17-2024 10:10:20",
+                "Version": "1",
+                "serviceListVersion": "2",
+                "Data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "3"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 0,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "billingAccount",
+                    "Value": "82100000278",
+                    "Name": "كود الموظف"
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "ابراهيم خليل ابو زيد",
+                    "Name": "إسم الموظف"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 67153,
+                    "alias": "",
+                    "amount": 0,
+                    "minAmount": 1,
+                    "maxAmount": 999999,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "100",
+                "version": "1",
+                "servicelistVersion": "1",
+                "brn": 82430,
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "brn": 82430,
+                "data": [],
+                "amount": "1675",
+                "fees": "",
+                "taxes": "",
+                "totalAmount": "\r"
+              }
+            },
+            "Payment": {
+              "request": {
+                "billingAccount": "82100000278",
+                "amount": 100,
+                "version": "1",
+                "serviceListVersion": "1",
+                "brn": 82430,
+                "localDate": "05-17-2024 10:12:12",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/17/2024 10:12:12 AM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "32750",
+                    "name": "رقم العمليه"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "05/17/2024 10:12:12 AM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceId",
+                            "value": "2036",
+                            "name": "كود الخدمه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العملية",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "billingAccount",
+                            "value": "82100000278",
+                            "name": "كود الموظف",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "ابراهيم خليل ابو زيد",
+                            "name": "إسم الموظف",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "dueDate",
+                            "value": "3/11/2024",
+                            "name": "تاريخ الفاتوره",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "amount",
+                            "value": "100",
+                            "name": "المبلغ المدفوع",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 24,
+      "name": "Tamweely",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Tamweely",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "26808282800204",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 1477,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "billingAccount",
+                    "Value": "26808282800204",
+                    "Name": "الرقم القومي "
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "محمد كامل ممدوح",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "sequence": 1,
+                    "alias": "",
+                    "amount": 1477,
+                    "minAmount": 1,
+                    "maxAmount": 1477,
+                    "Data": [
+                      {
+                        "Key": "dueDate",
+                        "Value": "2023-09-30 00:00:00",
+                        "Name": "تاريخ الاستحقاق"
+                      },
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "1477",
+                        "Name": " قيمة القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "26808282800204",
+                "amount": 100,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "12345",
+                    "Name": "الرقم المرجعي"
+                  },
+                  {
+                    "Key": "totalOutStanding",
+                    "Value": "10239",
+                    "Name": "اجمالي الرصيد"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "",
+                            "name": "كود الخدمه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": " رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العمليه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "billingAccount",
+                            "Value": "26808282800204",
+                            "Name": "الرقم القومي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "customerName",
+                            "value": "محمد كامل ممدوح",
+                            "name": "اسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalOutStanding",
+                            "Value": "10239",
+                            "Name": "اجمالي الرصيد",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "installmentNumber",
+                            "Value": "9",
+                            "Name": "رقم القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "providerDueAmount",
+                            "Value": "1477",
+                            "Name": "قيمة القسط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "dueDate",
+                            "Value": "2023-09-30 00:00:00",
+                            "Name": "تاريخ الاستحقاق",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "nextDueAmount",
+                            "Value": "1477",
+                            "Name": "القسط القادم",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "nextDueDate",
+                            "Value": "2023-10-31 00:00:00",
+                            "Name": "تاريخ القسط القادم",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "penalties",
+                            "Value": "0",
+                            "Name": "غرامة التأخير",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "amount",
+                            "Value": 100,
+                            "Name": "المبلغ المسدد",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

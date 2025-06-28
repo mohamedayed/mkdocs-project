@@ -1,0 +1,380 @@
+{
+  "id": 1,
+  "name": "water prepaid",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "water prepaid",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "water prepaid",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "6ooqUHdBBHq1JQ==",
+                "amount": "100",
+                "localDate": "22-07-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  },
+                  {
+                    "key": "lat",
+                    "name": "LocationLat",
+                    "value": "30.97293"
+                  },
+                  {
+                    "key": "lng",
+                    "name": "LocationLng",
+                    "value": "30.01361"
+                  },
+                  {
+                    "key": "companyCode",
+                    "name": "Code",
+                    "value": "1OSG"
+                  },
+                  {
+                    "key": "cardBuffer",
+                    "name": "Card Buffer",
+                    "value": "H4sIAAAAAAAEAO1X7Y7cOgh9JTCf/mljeP9Husy0I+1qdzWtequqnZxIcYQTH8yB2AYAcYOAXLIQ7qBBQvztmYUP2zhtEJbvNhUb2W9pX8jVfQZf4LPv32LP2FuXHHZYPCp1Yq0DkVvzHFSnxU6wRXceqQ1TlWTCGEepzHntQNtwJIWX5hQfw7W6Yywd9Q5gDjrfWX4znvFvoliOm4egRZzh7Iex4pAcGfRs/Gfxezp/nloUCkpM6aQ80krFw1MsNy2ayZiHx4IZ5nvtzXNZuh+Dw9pu71oybrypgd75Ed6OCDDXPHrwJklwVa5tw3i2mJ6pcKq5S2buoyBq0/KMWmWMkBHbFi+iGQw9sbQxMkp5d7KGrVgTZo/r0qEr69k2q609tHbp3u27zZ7NlrVCJEsxs5O1nAwExyR0tWfj/2r/UMDTQQxpXaEY46idyNjqDkE6QJVjUKtC7ZgSJEUrcrTDlOrS7VbyIR2VIGPG42jDRWAR4kq04n1gRXS2OBZmKIaxe+vi2CG0bFqW6lTpmJzZtTHVwQJsgdaaiEILcJpBx9DccMcEyq6/UlqYbBOV2h1fJnvNVtvZMMav5v//U2UX/8V/8V/8F//P8o+4vYUTCnvxQTftfZ31spTkt44kuP/jH23vNwoef/233n/bqczbbQTq3VSAv3t+fw8WuN7i8WgfYOABX+XB0/X1H8f7/On8fBspv2XYFygGjI23c8lPfTH2j7g1vt8q3xg/nKN8wH00vdfG40T1g/jMT/1oQv9guTF/ctJ6VVz1deF18af3Hxf+LC79XxuX/q+NS//XxqX/a+PS/7Vx6f/aeKb/f7Thw9kAIAAA"
+                  },
+                  {
+                    "key": "imei",
+                    "name": "IMEI",
+                    "value": "398d1ad01a464aa1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "22/07/2024 11:21:26 م",
+                "Data": [
+                  {
+                    "Key": "chargeNetValue",
+                    "Value": "3.06",
+                    "Name": "صافى قيمة الشحن"
+                  },
+                  {
+                    "Key": "availableCredit",
+                    "Value": "0",
+                    "Name": "تسوية إئتمان "
+                  },
+                  {
+                    "Key": "totalDebitAdjustment",
+                    "Value": "96.94",
+                    "Name": "تسوية خصم"
+                  },
+                  {
+                    "Key": "totalInstallmentsAmount",
+                    "Value": "0",
+                    "Name": "إجمالى أقساط"
+                  },
+                  {
+                    "Key": "providerReference",
+                    "Value": "202402500000003519",
+                    "Name": "رقم الايصال"
+                  },
+                  {
+                    "Key": "transactionId",
+                    "Value": "",
+                    "Name": "رقم العملية"
+                  },
+                  {
+                    "key": "cardBuffer",
+                    "value": "RnUEQWAAAAAAAAAAAAAAAEVNRy1TRUUAAABGVy4zMDAxAAAAAAAAAAAAAAAAAAAAMTQwMDU0MjU3AAAAAAAAAHjyGk8W7QtMl+PI1lzAwTHwAgAAAAAAAAAAAAAAAAAArcfoqZF3GAu3kC8QIeB3RzC/hQDqM5uraKcW8LmidvsAII3dG0IOAAADAAAA/hAAEAEYDwoYEAEYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQan9gCJI3LJKyRwnTdtf6E8sH3jbct+jn9Un5ReNfmPCHlr/vhfxw35KuHOS3d1a2EccBYuxwhhN6OiAtW+I1TzJVjAGTiQRiOf9hIe1XpDLKkp2ub3i90kXtcPfRe0H3ETz0xDR/h3aSse9jFELQXz4N850SVCORVK/VyPDw01L8DvkITsrZ1V9k69VP9dSR4SsuttiIaC9mqPezJw+V1PEzgstqENiAlpICmFDaHnSpSeuWFnIvJ2f6KTZFvx4EfJFTiV30IeGI6Fc5unLB2PeEGRPzuw2CUgB7uEMevJJ13cP2tPTEcidczUwKncPLpulslP0VFPSYM29YLd5bfvAbz89YXXez8sS+LUX/Udi+xNMC1FV9AAxbuMIpNmocxpJMkbbi/5wlOvFtnROcHMaSTJG24v+cJTrxbZ0TnDhgAJNZIz/ndLm0gs7Lt6ac98MiYcdoIGTfjGXVwXHHy6bpbJT9FRT0mDNvWC3eW0um6WyU/RUU9Jgzb1gt3ltLpulslP0VFPSYM29YLd5baIvWmHCmN5rp90U8b2UM6ykBBTJkKELeBvyIP2+KEblLpulslP0VFPSYM29YLd5bS6bpbJT9FRT0mDNvWC3eW1nCEeAsPyAc46sVx++0Os53WmMvOf+K1sNM8nWBFAvRvKlKio/Wlw87jhfUBAE0+XymgEKhsGbXmOGR+Lj5t9ajJuxnM0Sg37PNMu1rfxmIi+oKmrsTThUGVfqnX0PRk652Vg1ojEBgrfkTKaCKzoE6mbC652OuqFZoA/s5oXTyRSg1hI+GcUekNXB5NX2T2uhqNKopeo6CcD2HXYLcSMoJ5p1yUbr2cOr6SxOeygeh0ef/oZyNqBNnjHlu7n6YL7hAubmYuF+MvlsDwrZupRPySwcyt6idG1N06X86Qt48gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAAEAAA8MFwAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA6DgEBGBMAQR8AABQUAFRHANQOWQgBAQEBANgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADyMAAA8jAAAyAAAAAAAAABLAQIDBhImACChBwCAPgAA5FcAAGxrAAAMewAADHsAAAx7AAAMewAADHsAAAx7AAAMewAADHsAAAx7AAAMewAADHsAAAx7AAAKAAAAFAAAAB4AAAAoAAAAMgAAAIgTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAQAAAAAAAAAAAAELFzQACQoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATACJOAAAUFABFTQDxDlkIAQEBAQDYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8jAAAPIwAAMgAAAAAAAAASwECAwYSJgAgoQcAgD4AAORXAABsawAADHsAAAx7AAAMewAADHsAAAx7AAAMewAADHsAAAx7AAAMewAADHsAAAx7AAAMewAACgAAABQAAAAeAAAAKAAAADIAAACIEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAEAAAAAAAAAAAABARg0AAkKAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAOAAIAAAACILCuAwAAAAAUiwAwYgYDAAAAAAAAAAAAAAAAAAAAAAAAAABwxzYAAAAAAHDHNgAAAAAAcMc2AAAAAABwxzYAAAAAAHDHNgAAAAAAcMc2AAAAAABwxzYAAAAAAHDHNgAAAAAAcMc2AAAAAABwxzYAAAAAAHDHNgAAAAAAcMc2AAAAAABwxzYAAAAAAKCgqQYAAAAAAwYScAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwD/Ew8By/kBAKz5ADAAAAAAAAB/AAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIA4BAAAAAAAAAAAAAAAAAACLAf//////L0KAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0L2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+                  },
+                  {
+                    "key": "providerTransactionId",
+                    "value": "3246acb6-2fc6-4253-b90a-a9dc25c54565",
+                    "name": " الرقم المرجعي "
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n            }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "",
+                            "name": "رقم العمليه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "customerName",
+                            "Value": "Ahly-Momken",
+                            "Name": "إسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerCode",
+                            "Value": "1820002",
+                            "Name": "كود المشترك",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerId",
+                            "Value": "27303-140054257",
+                            "Name": "رقم المنظومة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "meterSerial",
+                            "Value": "EM2020-18-20002",
+                            "Name": "رقم العداد",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "providerTransactionId",
+                            "Value": "3246acb6-2fc6-4253-b90a-a9dc25c54565",
+                            "Name": "رقم مرجعي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "activityName",
+                            "Value": "منزلى  ",
+                            "Name": "اسم النشاط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "chargeNetValue",
+                            "Value": "3.06",
+                            "Name": "صافى قيمة الشحن",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "availableCredit",
+                            "Value": "0",
+                            "Name": "تسوية إئتمان ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalDebitAdjustment",
+                            "Value": "96.94",
+                            "Name": "تسوية خصم",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalInstallmentsAmount",
+                            "Value": "0",
+                            "Name": "إجمالى أقساط",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "serviceFees",
+                            "Value": false,
+                            "Name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 2,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalAmount",
+                            "Value": "",
+                            "Name": "إجمالى المبلغ المدفوع ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            },
+            "Cancel": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "6ooqUHdBBHq1JQ==",
+                "amount": "100",
+                "localDate": "22-07-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "فشلت العمليه وتم استرداد القيمه",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "22/07‏‏/2024 2:02:26 م",
+                "ProviderTransactionID": null,
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ]
+              }
+            },
+            "Bulk Cancel": {
+              "request": [
+                {
+                  "clientDate": "2023-01-09 10:12:10",
+                  "requestId": "147811",
+                  "extraData": [
+                    {
+                      "key": "paymentRequestId",
+                      "value": "159753"
+                    },
+                    {
+                      "key": "providerAmount",
+                      "value": "100"
+                    },
+                    {
+                      "key": "asyncRequestId",
+                      "value": "3246acb6-2fc6-4253-b90a-a9dc25c54565"
+                    },
+                    {
+                      "key": "companyCode",
+                      "value": "1PT"
+                    }
+                  ]
+                },
+                [
+                  {
+                    "key": "paymentRequestId",
+                    "value": "12456"
+                  },
+                  {
+                    "key": "providerAmount",
+                    "value": "100"
+                  },
+                  {
+                    "key": "asyncRequestId",
+                    "value": "2974c4c8-e800-448d-a139-a9270f4986e6"
+                  },
+                  {
+                    "key": "companyCode",
+                    "value": "NAT-GAS"
+                  }
+                ]
+              ],
+              "response": {
+                "responseCode": "200",
+                "requestId": "147811",
+                "totalAmount": "",
+                "providerTransactionId": "",
+                "extraData": [
+                  {
+                    "key": "providerTransactioId",
+                    "value": "\r"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

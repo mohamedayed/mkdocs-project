@@ -1,0 +1,171 @@
+{
+  "id": 1,
+  "name": "meeza",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "LogOnOff",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "LogOnOff",
+          "docs": {
+            "Inq": {
+              "request": {
+                "clientDate": "2022-04-26 10:12:10",
+                "requestId": "33234911",
+                "extraData": [
+                  {
+                    "key": "",
+                    "value": "\r"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "Merchant Bulk Reg-UnReg",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Merchant Bulk Reg-UnReg",
+          "docs": {
+            "Register": {
+              "request": {
+                "account": "",
+                "clientDate": "2024-01-30 10:10:10",
+                "requestId": "123123123",
+                "wallet": [
+                  {
+                    "MerchantId": "997112233",
+                    "UnregistrationReason": "Closed"
+                  },
+                  {
+                    "MerchantId": "997123123",
+                    "UnregistrationReason": "Thieve"
+                  }
+                ],
+                "extraData": [
+                  {
+                    "key": "customerName",
+                    "value": "حمديه عبدالسميع رضوان محمد"
+                  }
+                ]
+              },
+              "response": {
+                "responseCode": "200",
+                "responseMessage": "Success",
+                "requestId": "123123123",
+                "providerTransactionId": "bcaa6fcc-6671-4822-ac16-9b913a7a1b6d",
+                "extraData": [
+                  {
+                    "key": "providerTransactionId",
+                    "value": "bbcaa6fcc-6671-4822-ac16-9b913a7a1b6d"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 4,
+      "name": "Merchant Reg-UnReg",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Merchant Reg-UnReg",
+          "docs": {
+            "Register": {
+              "request": {
+                "account": "",
+                "clientDate": "2024-01-30 10:10:10",
+                "requestId": "123123123",
+                "wallet": [
+                  {
+                    "key": "MerchantId",
+                    "value": "997123456"
+                  },
+                  {
+                    "key": "UnregistrationReason",
+                    "value": "Closed"
+                  }
+                ],
+                "extraData": [
+                  {
+                    "key": "customerName",
+                    "value": "حمديه عبدالسميع رضوان محمد"
+                  }
+                ]
+              },
+              "response": {
+                "responseCode": "200",
+                "responseMessage": "Success",
+                "requestId": "123123123",
+                "providerTransactionId": "bfsd2dc2-ncbb-97eb-876d-c496697dea79",
+                "extraData": [
+                  {
+                    "key": "providerTransactionId",
+                    "value": "bfsd2dc2-ncbb-97eb-876d-c496697dea79"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 5,
+      "name": "Update merchant",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Update merchant",
+          "docs": {
+            "Register": {
+              "request": {
+                "account": "997123456",
+                "clientDate": "2024-01-30 10:10:10",
+                "requestId": "123123123",
+                "wallet": [
+                  {
+                    "Name": "AmrAhmedMohamed",
+                    "City": "Cairo",
+                    "Address": "Maadi",
+                    "MerchantType": "Merchant",
+                    "MCC": "1111",
+                    "CanPerformRegistration": false
+                  }
+                ]
+              },
+              "response": {
+                "responseCode": "200",
+                "responseMessage": "Success",
+                "requestId": "123123123",
+                "providerTransactionId": "d7871d9b-d01f-4f84-8a2b-0f68505a6cdb",
+                "extraData": [
+                  {
+                    "key": "providerTransactionId",
+                    "value": "d7871d9b-d01f-4f84-8a2b-0f68505a6cdb"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+:root {
+  --md-primary-fg-color:        #00816D;
+  --md-primary-fg-color--light: #26a692;
+  --md-primary-fg-color--dark:  #005f4f;
+
+  --md-accent-fg-color:         #00816D;
+}
+
+.grid.cards.three-per-row > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.md-main__inner {
+  max-width: 1200px;
+}
+.service-search-container {
+  margin: 2rem 0;
+}
+
+.service-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: var(--md-default-fg-color);
+}
+
+.service-input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.service-item {
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background-color: var(--md-default-bg-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.service-item:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.service-item .icon {
+  margin-inline-end: 0.5rem;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  color: var(--md-primary-fg-color);
+}
+
+.service-item .name {
+  font-weight: 500;
+}
+
+/* Card */
+.service-card {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background-color: var(--md-default-bg-color);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hidden {
+  display: none;
+}
+
+
+.api-block {
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+}
+
+.api-path {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.api-method {
+  background-color: var(--md-code-bg-color);
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+.api-method-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.method-label {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-family: monospace;
+  color: #FF5722;               /* Orange text */
+  background-color: #2A1914;    /* Dark reddish background */
+  border: 1px solid rgba(255, 87, 34, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(255, 87, 34, 0.3);
+}
+
+/* Optional: Specific override for POST (same as base but allows flexibility for others) */
+.method-label.post {
+  color: #FF5722;
+  background-color: #2f1403;
+}
+
+/* Optional: Add a hover or active state for accessibility/feedback */
+.method-label:hover {
+  background-color: #FF5722;
+  color: #2A1914;
+  transition: all 0.2s ease;
+}
+
+
+.method-label.get {
+  color: #4caf50;
+  background-color: #1c2c1e;
+}
+
+
+
+.method-label.put {
+  color: #FFC107;
+  background-color: #2A2210;
+}
+
+.method-label.delete {
+  color: #F44336;
+  background-color: #2b1515;
+}
+
+.api-label {
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.api-section pre {
+  margin: 0;
+  background: var(--md-code-bg-color);
+}
+
+
+.service-title-wrapper {
+  background: var(--md-code-bg-color);
+  color: var(--md-typeset-color);
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--md-primary-fg-color);
+  transition: background 0.3s ease;
+}
+
+.service-title-wrapper h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  /* color: var(--md-primary-fg-color); */
+  color: var(--md-default-fg-color);
+
+}
+
+.service-title-wrapper .service-subtitle {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0.4rem;
+}
+
+.api-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.back-button {
+  background: hsla(var(--md-hue), 15%, 18%, 1);
+  border: none;
+  color: var(--md-primary-fg-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background: hsla(var(--md-hue), 15%, 25%, 1);
+  transform: scale(1.05);
+}
+
+.tree-header.special-leaf-clickable .toggle-icon,
+.tree-header.special-leaf-clickable .node-count {
+  display: none;
+}
+
+

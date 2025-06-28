@@ -1,0 +1,169 @@
+{
+  "id": 1,
+  "name": "etisalat demagh tanya",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "etisalat demagh tanya",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "etisalat demagh tanya",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": "42.86",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "42.86",
+                "fees": 0,
+                "taxes": 0,
+                "totalAmount": 42.86,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01125349815",
+                "amount": 42.86,
+                "localDate": "05-10-2022 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "3870484284",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "accountID",
+                          "value": "",
+                          "name": "رقم الحساب",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "providerTransactionID",
+                          "value": "3870484284",
+                          "name": "الرقم المرجعي",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceCode",
+                          "value": "XXX",
+                          "name": "كود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "billingAccount",
+                          "Value": "01125349815",
+                          "Name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "amount",
+                          "Value": "42.86",
+                          "Name": "قيمة الشحن",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "taxes",
+                          "Value": "0.0",
+                          "Name": "قيمة الضريبة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": 0,
+                          "Name": "تكلفة الخدمة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "42.86",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "احصل على2500ميجا اكس و60دقيقه لكل الشبكات وواتس اب مجانا",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

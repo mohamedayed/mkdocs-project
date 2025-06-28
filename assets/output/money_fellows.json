@@ -1,0 +1,104 @@
+{
+  "id": 1,
+  "name": "money fellows",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "money fellows",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "money fellows",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "23623623623423",
+                "localDate": "12-22-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 27500,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "POS Test External Merchants",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "Key": "BillingAccount",
+                    "Value": "23623623623423",
+                    "Name": "رقم البطاقة"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 27500,
+                    "minAmount": 27500,
+                    "maxAmount": 27500,
+                    "Data": [
+                      {
+                        "Key": "description",
+                        "Value": "مستحقات 11 اقساط لعدد 1 جمعيات حتى 01 نوفمبر 2024",
+                        "Name": "تفاصيل القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "23623623623423",
+                "amount": 27500,
+                "localDate": "12-22-2024 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

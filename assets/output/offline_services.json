@@ -1,0 +1,208 @@
+{
+  "id": 1,
+  "name": "offline services",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "Maak Service",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Maak Service",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "27512222501451",
+                "LocalDate": "05-17-2024 10:10:20",
+                "Version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "2"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 63.7,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "شحاته احمد شحاته عبدالحق",
+                    "Name": "إسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 67153,
+                    "alias": "",
+                    "amount": 1675,
+                    "minAmount": 1675,
+                    "maxAmount": 1675,
+                    "Data": [
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "1675",
+                        "Name": "قيمة القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "1675",
+                "version": "1",
+                "servicelistVersion": "1",
+                "brn": 82430,
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "brn": 82430,
+                "data": [],
+                "amount": "1675",
+                "fees": "",
+                "taxes": "",
+                "totalAmount": "\r"
+              }
+            },
+            "Payment": {
+              "request": {
+                "billingAccount": "27512222501451",
+                "amount": 1675,
+                "version": "1",
+                "serviceListVersion": "1",
+                "brn": 82430,
+                "localDate": "05-17-2024 10:12:12",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/17/2024 10:12:12 AM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "32750",
+                    "name": "رقم العمليه"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "05/17/2024 10:12:12 AM",
+                            "name": "Date",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceId",
+                            "value": "2036",
+                            "name": "Service Id",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "Account Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "customerName",
+                            "value": "شحاته احمد شحاته عبدالحق",
+                            "name": "إسم العميل",
+                            "bold": true,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "27512222501451",
+                            "name": "الرقم القومي",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "providerDueAmount",
+                            "value": "1675",
+                            "name": "قيمة القسط",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

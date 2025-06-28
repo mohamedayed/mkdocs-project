@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded");
+
+.compact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.compact-card {
+  display: flex;
+  align-items: center;
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  transition: border-color 0.2s ease;
+  gap: 1rem;
+}
+
+.compact-card:hover {
+  border-color: var(--md-accent-fg-color);
+}
+
+.compact-card-icon {
+  font-size: 1.25rem;
+  color: var(--md-accent-fg-color);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.compact-card-icon .material-symbols-rounded {
+  font-variation-settings: 'FILL' 1;
+  font-size: 1.5rem;
+}
+
+.compact-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.compact-card-title {
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-bottom: 0.1rem;
+  color: var(--md-primary-fg-color);
+}
+
+.compact-card-description {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color);
+  line-height: 1.3;
+}
