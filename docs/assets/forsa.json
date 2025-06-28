@@ -1,0 +1,742 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "OpenAPI definition",
+    "version": "v0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8880",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/services/{serviceId}/payment": {
+      "post": {
+        "tags": [
+          "online-invoices-payment"
+        ],
+        "summary": "Invoices Payment",
+        "description": "Payment transaction for single and multiple invoices",
+        "operationId": "payment",
+        "parameters": [
+          {
+            "name": "serviceId",
+            "in": "path",
+            "description": "Service denomination id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "example": "/services/{xxxx}/payment"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MomknPaymentRequest"
+              },
+              "example": {
+                "billingAccount": "01122196666",
+                "clientDate": "2025-06-10 10:12:10",
+                "requestId": "123456'",
+                "amount": "474.0",
+                "extraData": [
+                  {
+                    "key": "key1",
+                    "value": "value1"
+                  },
+                  {
+                    "key": "key2",
+                    "value": "value2"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "id": "1",
+                    "alias": "",
+                    "amount": "474.0",
+                    "minAmount": "474.0",
+                    "maxAmount": "474.0",
+                    "extraData": [
+                      {
+                        "key": "providerDueAmount",
+                        "value": 45
+                      },
+                      {
+                        "key": "checkDiscount",
+                        "value": false
+                      },
+                      {
+                        "key": "paymentId",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "isRetry": "0"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful transaction",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MomknPaymentResponse"
+                },
+                "example": {
+                  "responseCode": 200,
+                  "responseMessage": "Success transaction",
+                  "serverDate": "2025-04-13 10:12:12",
+                  "responseDate": "2025-04-13 10:12:12",
+                  "requestId": "123456",
+                  "providerTransactionId": "4959cc1a-4d27-11f0-a3d2-320eea483848",
+                  "totalAmount": "474.0",
+                  "extraData": [
+                    [
+                      {
+                        "key": "providerTransactionId",
+                        "value": "4959cc1a-4d27-11f0-a3d2-320eea483848"
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          },
+          "202": {
+            "description": "PENDING_TRANSACTION",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorDetails"
+                },
+                "example": {
+                  "responseDate": "2025-06-12 11:49:46",
+                  "responseCode": 202,
+                  "responseMessage": "PENDING_TRANSACTION",
+                  "details": "/services/{serviceId}/payment",
+                  "requestId": "xxxxxxxx"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "PROVIDER_ERROR",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorDetails"
+                },
+                "example": {
+                  "responseDate": "2025-06-12 11:49:46",
+                  "responseCode": 400,
+                  "responseMessage": "PROVIDER_ERROR",
+                  "details": "/services/{serviceId}/payment",
+                  "requestId": "xxxxxxxx"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://10.90.7.192:8087/momknswitch/api/v1.0/services/{serviceId}/payment",
+            "description": "Testing server",
+            "variables": {
+              "serviceId": {
+                "description": "Service denomination id",
+                "default": "0000",
+                "enum": [
+                  "Digits"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "/services/{serviceId}/inquiry": {
+      "post": {
+        "tags": [
+          "online-invoices-inquiry"
+        ],
+        "summary": "Invoices Inquiry",
+        "description": "Inquiry transaction for single and multiple invoices",
+        "operationId": "inquiry",
+        "parameters": [
+          {
+            "name": "serviceId",
+            "in": "path",
+            "description": "Service denomination id",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "example": "/services/{xxxx}/inquiry"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MomknInquiryRequest"
+              },
+              "example": {
+                "billingAccount": "01122196666",
+                "clientDate": "2025-01-20 10:10:10",
+                "requestId": "1223456",
+                "extraData": [
+                  {}
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful transaction",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MomknInquiryResponse"
+                },
+                "example": {
+                  "responseCode": "200",
+                  "responseMessage": "Success transaction",
+                  "serverDate": "2025-06-10 10:11:10",
+                  "responseDate": "2025-06-10 10:11:12",
+                  "totalAmount": "474.0",
+                  "extraData": [
+                    {
+                      "key": "key1",
+                      "value": "value1"
+                    },
+                    {
+                      "key": "key2",
+                      "value": "value2"
+                    }
+                  ],
+                  "invoices": [
+                    {
+                      "id": "1",
+                      "alias": "",
+                      "amount": "474.0",
+                      "minAmount": "474.0",
+                      "maxAmount": "474.0",
+                      "extraData": [
+                        {
+                          "key": "key1",
+                          "value": "value1"
+                        },
+                        {
+                          "key": "key2",
+                          "value": "value2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "PROVIDER_ERROR",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorDetails"
+                },
+                "example": {
+                  "responseDate": "2025-06-12 11:49:46",
+                  "responseCode": 400,
+                  "responseMessage": "PROVIDER_ERROR",
+                  "details": "/services/{serviceId}/inquiry",
+                  "requestId": "xxxxxxxx"
+                }
+              }
+            }
+          },
+          "408": {
+            "description": "REQUEST_TIMEOUT",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorDetails"
+                },
+                "example": {
+                  "responseDate": "2025-06-12 11:49:46",
+                  "responseCode": 408,
+                  "responseMessage": "REQUEST_TIMEOUT",
+                  "details": "/services/{serviceId}/inquiry",
+                  "requestId": "xxxxxxxx"
+                }
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://10.90.7.192:8087/momknswitch/api/v1.0/services/{serviceId}/inquiry",
+            "description": "Testing server",
+            "variables": {
+              "serviceId": {
+                "description": "Service denomination id",
+                "default": "xxx",
+                "enum": [
+                  "Digits"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AdditionalInfoDTO": {
+        "required": [
+          "key",
+          "value"
+        ],
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "key represents parameter name",
+            "example": "key1"
+          },
+          "value": {
+            "type": "string",
+            "description": "value represents parameter value",
+            "example": "value1"
+          }
+        },
+        "description": "Response extra information if exits",
+        "example": [
+          [
+            {
+              "key": "key1",
+              "value": "value1"
+            },
+            {
+              "key": "key2",
+              "value": "value2"
+            }
+          ]
+        ]
+      },
+      "MomknPaymentRequest": {
+        "required": [
+          "amount",
+          "billingAccount",
+          "clientDate",
+          "extraData",
+          "invoices",
+          "isRetry",
+          "requestId"
+        ],
+        "type": "object",
+        "properties": {
+          "billingAccount": {
+            "type": "string",
+            "description": "Customer unique identifier",
+            "example": "xxxxxxxxx"
+          },
+          "clientDate": {
+            "type": "string",
+            "description": "Client Transaction Date 24H format",
+            "example": "yyyy-MM-dd HH:mm:ss"
+          },
+          "requestId": {
+            "type": "string",
+            "description": "Generated unique request identifier",
+            "example": "25454646"
+          },
+          "count": {
+            "type": "integer",
+            "description": "Number of invoices to be paid per transaction",
+            "format": "int32",
+            "example": 1
+          },
+          "amount": {
+            "type": "number",
+            "description": "Invoices total amount",
+            "format": "double",
+            "example": 0
+          },
+          "extraData": {
+            "$ref": "#/components/schemas/extraData"
+          },
+          "invoices": {
+            "$ref": "#/components/schemas/invoices"
+          },
+          "isRetry": {
+            "type": "integer",
+            "description": "Flag indicates if transaction is a retry operation default to 0, 0 = false, 1 = true",
+            "format": "int32",
+            "example": 0
+          }
+        }
+      },
+      "extraData": {
+        "required": [
+          "key",
+          "value"
+        ],
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "key represents parameter name",
+            "example": "key1"
+          },
+          "value": {
+            "type": "string",
+            "description": "value represents parameter value",
+            "example": "value1"
+          }
+        },
+        "description": "List of key value pairs to send any extra information if needed, otherwise send empty json list",
+        "example": [
+          {
+            "key": "key1",
+            "value": "value1"
+          },
+          {
+            "key": "key2",
+            "value": "value2"
+          }
+        ]
+      },
+      "invoices": {
+        "required": [
+          "alias",
+          "amount",
+          "extraData",
+          "id",
+          "maxAmount",
+          "minAmount"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "invoice unique identifier",
+            "example": "1"
+          },
+          "alias": {
+            "type": "string",
+            "description": "invoice defined nickname",
+            "example": "invoice1"
+          },
+          "amount": {
+            "type": "number",
+            "description": "invoice amount",
+            "format": "double",
+            "example": 0
+          },
+          "minAmount": {
+            "type": "number",
+            "description": "minimum payment amount",
+            "format": "double",
+            "example": 0
+          },
+          "maxAmount": {
+            "type": "number",
+            "description": "maximum payment amount",
+            "format": "double",
+            "example": 0
+          },
+          "extraData": {
+            "type": "array",
+            "description": "Response extra information if exits",
+            "example": [
+              [
+                {
+                  "key": "key1",
+                  "value": "value1"
+                },
+                {
+                  "key": "key2",
+                  "value": "value2"
+                }
+              ]
+            ],
+            "items": {
+              "$ref": "#/components/schemas/AdditionalInfoDTO"
+            }
+          }
+        },
+        "description": "List of invoices object contains payment details in transaction",
+        "example": [
+          {
+            "id": "1",
+            "alias": "",
+            "amount": "100.0",
+            "minAmount": "100.0",
+            "maxAmount": "100.0",
+            "extraData": [
+              {
+                "key": "key1",
+                "value": "value1"
+              },
+              {
+                "key": "key2",
+                "value": "value2"
+              }
+            ]
+          }
+        ]
+      },
+      "MomknPaymentResponse": {
+        "required": [
+          "count",
+          "extraData",
+          "providerTransactionId",
+          "requestId",
+          "responseCode",
+          "responseDate",
+          "responseMessage",
+          "serverDate",
+          "totalAmount"
+        ],
+        "type": "object",
+        "properties": {
+          "responseCode": {
+            "type": "integer",
+            "description": "Response status",
+            "format": "int32",
+            "example": 200
+          },
+          "responseMessage": {
+            "type": "string",
+            "description": "Response message",
+            "example": "SUCCESSFULLY"
+          },
+          "serverDate": {
+            "type": "string",
+            "description": "Server datetime",
+            "example": "yyyy-MM-dd HH:mm:ss"
+          },
+          "responseDate": {
+            "type": "string",
+            "description": "Response datetime",
+            "example": "yyyy-MM-dd HH:mm:ss"
+          },
+          "requestId": {
+            "type": "string",
+            "description": "Request unique identifier",
+            "example": "xxxxxx"
+          },
+          "count": {
+            "type": "integer",
+            "description": "Number of successful invoices per transaction",
+            "format": "int32",
+            "example": 1
+          },
+          "providerTransactionId": {
+            "type": "string",
+            "description": "Transaction reference number",
+            "example": "4959cc1a-4d27-11f0-a3d2-320eea483848"
+          },
+          "totalAmount": {
+            "type": "number",
+            "description": "Transaction total paid amount",
+            "format": "double",
+            "example": 0
+          },
+          "extraData": {
+            "type": "array",
+            "description": "Response extra information if exits",
+            "example": [
+              [
+                {
+                  "key": "key1",
+                  "value": "value1"
+                },
+                {
+                  "key": "key2",
+                  "value": "value2"
+                }
+              ]
+            ],
+            "items": {
+              "type": "array",
+              "description": "Response extra information if exits",
+              "example": [
+                [
+                  {
+                    "key": "key1",
+                    "value": "value1"
+                  },
+                  {
+                    "key": "key2",
+                    "value": "value2"
+                  }
+                ]
+              ],
+              "items": {
+                "$ref": "#/components/schemas/AdditionalInfoDTO"
+              }
+            }
+          }
+        }
+      },
+      "ErrorDetails": {
+        "required": [
+          "details",
+          "requestId",
+          "responseCode",
+          "responseDate",
+          "responseMessage"
+        ],
+        "type": "object",
+        "properties": {
+          "responseDate": {
+            "type": "string",
+            "description": "Response datetime",
+            "example": "yyyy-MM-dd HH:mm:ss"
+          },
+          "responseCode": {
+            "type": "integer",
+            "description": "Error Code",
+            "format": "int32",
+            "example": 400
+          },
+          "responseMessage": {
+            "type": "string",
+            "description": "Error message",
+            "example": "PROVIDER_ERROR"
+          },
+          "details": {
+            "type": "string",
+            "description": "Request details",
+            "example": "/services/{serviceId}/inquiry"
+          },
+          "requestId": {
+            "type": "string",
+            "description": "Request unique identifier",
+            "example": "xxxxxx"
+          }
+        }
+      },
+      "MomknInquiryRequest": {
+        "required": [
+          "billingAccount",
+          "clientDate",
+          "extraData",
+          "requestId"
+        ],
+        "type": "object",
+        "properties": {
+          "billingAccount": {
+            "type": "string",
+            "description": "Customer unique identifier",
+            "example": "xxxxxxxx"
+          },
+          "clientDate": {
+            "type": "string",
+            "description": "Client Transaction Date 24H format",
+            "example": "yyyy-MM-dd HH:mm:ss"
+          },
+          "requestId": {
+            "type": "string",
+            "description": "Generated unique request identifier",
+            "example": "xxxxxxx"
+          },
+          "extraData": {
+            "$ref": "#/components/schemas/extraData"
+          }
+        }
+      },
+      "MomknInquiryResponse": {
+        "required": [
+          "extraData",
+          "invoices",
+          "responseCode",
+          "responseDate",
+          "responseMessage",
+          "serverDate",
+          "totalAmount"
+        ],
+        "type": "object",
+        "properties": {
+          "responseCode": {
+            "type": "integer",
+            "description": "Response status",
+            "format": "int32",
+            "example": 200
+          },
+          "responseMessage": {
+            "type": "string",
+            "description": "Response message",
+            "example": "SUCCESSFULLY"
+          },
+          "serverDate": {
+            "type": "string",
+            "description": "Server datetime",
+            "example": "yyyy-MM-dd HH:mm:ss"
+          },
+          "responseDate": {
+            "type": "string",
+            "description": "Response datetime",
+            "example": "yyyy-MM-dd HH:mm:ss"
+          },
+          "totalAmount": {
+            "type": "number",
+            "description": "Transaction total paid amount",
+            "format": "double",
+            "example": 0
+          },
+          "extraData": {
+            "type": "array",
+            "description": "Response extra information if exits",
+            "example": [
+              {
+                "key": "key1",
+                "value": "value1"
+              },
+              {
+                "key": "key2",
+                "value": "value2"
+              }
+            ],
+            "items": {
+              "$ref": "#/components/schemas/AdditionalInfoDTO"
+            }
+          },
+          "invoices": {
+            "$ref": "#/components/schemas/invoices"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "switch_authorization": {
+        "type": "oauth2",
+        "description": "Switch JWT token",
+        "flows": {
+          "clientCredentials": {
+            "tokenUrl": "http://10.90.7.192:8087/momknswitch/api/v1.0/login",
+            "scopes": {
+              "inquiry": "",
+              "fees": "",
+              "payment": "",
+              "cancel payment": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

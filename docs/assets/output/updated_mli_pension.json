@@ -1,0 +1,268 @@
+{
+  "id": 1,
+  "name": "updated mli pension",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "updated mli pension",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "updated mli pension",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "50516481",
+                "localDate": "4-26-2022 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "PolicyNumber",
+                    "value": "\r"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 120000,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "customerName",
+                    "value": "السيدة / سيده محمد عبده اسماعيل",
+                    "name": "الاسم"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": "120000",
+                    "minAmount": "50",
+                    "maxAmount": "120000",
+                    "Data": [
+                      {
+                        "key": "policyNumber",
+                        "value": "01748759",
+                        "name": "رقم الوثيقة"
+                      },
+                      {
+                        "key": "depositeAmtTillDate",
+                        "value": "38000.00",
+                        "name": "اجمالى الاقساط المدفوعة "
+                      },
+                      {
+                        "key": "totalAmtAllowedForYr",
+                        "value": "120000.0",
+                        "name": "المبلغ السنوى"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "100",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "100",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "50516481",
+                "amount": 100,
+                "localDate": "4-26-2022 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "9998",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "19:14:29 31/05/2021",
+                          "name": "التاريخ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "accountID",
+                          "value": "",
+                          "name": "رقم الحساب",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "providerTransactionID",
+                          "value": "9998",
+                          "name": "الرقم المرجعي",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceCode",
+                          "value": "XXX",
+                          "name": "كود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "1547963",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "key": "clientNumber",
+                          "value": "50516481",
+                          "name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "customerName",
+                          "value": "السيدة / سيده محمد عبده اسماعيل",
+                          "name": "الاسم",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "policyNumber",
+                          "value": "01748759",
+                          "name": "رقم الوثيقة",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "amount",
+                          "value": "100.0",
+                          "name": "المبلغ المسدد",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "depositeAmtTillDate",
+                          "value": "38000.00",
+                          "name": "إجمالي الأقساط المدفوعة",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "totalAmtAllowedForYr",
+                          "value": "120000.0",
+                          "name": "المبلغ المسموح به خلال العام",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceFees",
+                          "value": "",
+                          "name": "تكلفه مزود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "totalAmount",
+                          "value": "",
+                          "name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

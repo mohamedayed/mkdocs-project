@@ -1,0 +1,188 @@
+{
+  "id": 1,
+  "name": "el-kheir microfinance 'offline'",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "CR ... BILL 3324",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "CR ... BILL 3324",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "80000003885",
+                "localDate": "8-03-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "3"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 822,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "بسمه عبد الجواد اسماعيل طايع",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 67027,
+                    "alias": "",
+                    "amount": 822,
+                    "minAmount": 822,
+                    "maxAmount": 822,
+                    "extraData": {
+                      "key": "dueDate",
+                      "value": "21-07-2022",
+                      "Name": "تاريخ الاستحقاق"
+                    }
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "80000003885",
+                "amount": "822.0.0",
+                "localDate": "8-03-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "67027"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "El Kheir Microfinance"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "customerName",
+                          "Value": "بسمه عبد الجواد اسماعيل طايع",
+                          "Name": "اسم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "billingAccount",
+                          "value": "80000003885",
+                          "name": "رقم العميل",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "Amount",
+                          "Value": "822.0",
+                          "Name": "المبلغ ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": false,
+                          "Name": "تكلفه مزود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

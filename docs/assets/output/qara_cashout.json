@@ -1,0 +1,217 @@
+{
+  "id": 1,
+  "name": "qara cashout",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "qara cashout",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "qara cashout",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01270773658",
+                "LocalDate": "05-17-2024 10:10:20",
+                "Version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "4"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 26844.556,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "customerName",
+                    "value": "مينا شوقى",
+                    "name": "الاسم"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 67153,
+                    "alias": "",
+                    "amount": 26844.556,
+                    "minAmount": 26844.556,
+                    "maxAmount": 26844.556,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "26844.556",
+                "version": "1",
+                "servicelistVersion": "1",
+                "brn": 82430,
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "brn": 82430,
+                "data": [],
+                "amount": "26844.556",
+                "fees": "",
+                "taxes": "",
+                "totalAmount": "\r"
+              }
+            },
+            "SendOTP": {
+              "request": {
+                "brn": 82430
+              },
+              "response": {
+                "OTPId": 46845,
+                "Data": [],
+                "Code": "200",
+                "Message": "Success"
+              }
+            },
+            "Confirm": {
+              "request": {
+                "billingAccount": "01270773658",
+                "amount": 26844.556,
+                "version": "1",
+                "serviceListVersion": "1",
+                "brn": 82430,
+                "localDate": "05-17-2024 10:12:12",
+                "Data": [
+                  {
+                    "key": "otp",
+                    "value": "671535"
+                  },
+                  {
+                    "key": "otpId",
+                    "value": "46854"
+                  },
+                  {
+                    "key": "Sequence",
+                    "value": "67153"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عملية ناجحة",
+                "totalAvailableBalance": 99999993290,
+                "totalBalance": 99999993290,
+                "localDate": null,
+                "serverDate": "05/17/2024 10:12:12 AM",
+                "data": [
+                  {
+                    "key": "transactionId",
+                    "value": "32750",
+                    "name": "رقم العمليه"
+                  }
+                ],
+                "receipt": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "05/17/2024 10:12:12 AM",
+                            "name": "التاريخ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceId",
+                            "value": "",
+                            "name": "كود الخدمه",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "6",
+                            "name": "رقم الحساب",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "رقم العمليه"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "billingAccount",
+                            "value": "01270773658",
+                            "name": "رقم الموبايل",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "userId",
+                            "value": "60216",
+                            "name": "كود الموظف",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "amount",
+                            "value": "26844.556",
+                            "name": "المبلغ المحصل",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلي",
+                            "bold": true,
+                            "alignment": 2,
+                            "parameterType": 2,
+                            "fontSize": 2
+                          }
+                        ]
+                      },
+                      "disclaimer": null,
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\r\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

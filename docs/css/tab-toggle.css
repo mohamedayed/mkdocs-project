@@ -1,0 +1,31 @@
+.service-tab-controls {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0;
+    border-bottom: 1px solid var(--md-default-fg-color--lighter);
+  }
+  
+  .tab-button {
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--md-default-fg-color);
+    position: relative;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+  }
+  
+  .tab-button:hover {
+    color: var(--md-accent-fg-color);
+  }
+  
+  .tab-button.is-active {
+    color: var(--md-primary-fg-color);
+    border-bottom: 2px solid var(--md-primary-fg-color);
+  }
+  

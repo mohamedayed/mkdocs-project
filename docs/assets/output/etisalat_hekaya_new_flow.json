@@ -1,0 +1,222 @@
+{
+  "id": 1,
+  "name": "etisalat hekaya new flow",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "etisalat hekaya new flow",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "etisalat hekaya new flow",
+          "docs": {
+            "Get Token": {
+              "response": {
+                "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0ek5iZTd2cUxPSUMxS29rRXExZzdaQ1FMNnlWRnJkZ3dIbEhSRjNhOU1jIn0.eyJleHAiOjE3MzQwMTU0NjgsImlhdCI6MTczNDAxNDg2OCwianRpIjoiYjBmNGNjMzItYmEyYS00ODBjLWExYzYtNzdhZWViMzY4MWI0IiwiaXNzIjoiaHR0cHM6Ly9leHRlcm5hbC5yaGJrLmFwcHMub2NwLmVnMDEuZXRpc2FsYXQubmV0L3JlYWxtcy9ldGlzYWxhdC12ZW5kb3IiLCJzdWIiOiIyNWEwNzA3OS0zZjJlLTQ5NmQtYmQwZi1kZWJiZmNmNTAwODYiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJhbGFobHltb21rbiIsInNjb3BlIjoic3Vic2NyaWJlclByb2ZpbGUtbWdtdC0tUE9TVCIsImNsaWVudElkIjoiYWxhaGx5bW9ta24ifQ.gL8FLU3Mkb5X7DxzCa5No7fDEleGxUpW7JpPXN0nMDr4AXC9zGELGMc9-7CYC5FfF3J1nYe2PYihCiQdmnhbWyaeNaXidHL21iZiw6cGO10pwiXHfdopNHhDCUy7Riml2Gmm_u7_XfZm7X0tb9IyCRMQUE5lBae700yveeHaDrtFul3-i-YEJlWnwy6ztrp9oabBUKwYmi8BpQlmPWBz5JTxb-MSjIBZFSCo39H7dt1x1Wu7JwGqMSPifpCA3PpXlz-Et2NTZKQmiuMv-ESoU5-UN69Y25EsBLiDJEi3H5GhkfiyP0d5FQpRfqrpFzYwjJ4WzzA4mWG7MhKLDLGZSA",
+                "expires_in": 600,
+                "refresh_expires_in": 0,
+                "token_type": "Bearer",
+                "not-before-policy": 0,
+                "scope": "subscriberProfile-mgmt--POST"
+              }
+            },
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01123780888",
+                "localDate": "08-15-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 64.29,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "bundleName",
+                    "value": "حكاية 45",
+                    "name": "انت على باقة"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 64.29,
+                    "minAmount": "64.29",
+                    "maxAmount": "64.29",
+                    "Data": [
+                      {
+                        "key": "providerDueAmount",
+                        "value": "ا64.29",
+                        "name": "قيمة الشحن"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": null,
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": null,
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01123780888",
+                "amount": 64.29,
+                "localDate": "08-15-2024 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "24/12/2024 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "08/18/2024 2:32:59 PM",
+                          "name": "التاريخ",
+                          "bold": false,
+                          "alignment": 1,
+                          "parameterType": 2,
+                          "fontSize": 1
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "",
+                          "name": "رقم الحساب",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceCode",
+                          "value": "XXX",
+                          "name": "كود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "billingAccount",
+                          "Value": "01123780888",
+                          "Name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "amount",
+                          "Value": "64.29",
+                          "Name": "قيمة الشحن",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "taxes",
+                          "Value": "",
+                          "Name": "قيمة الضريبة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": "",
+                          "Name": "تكلفه الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

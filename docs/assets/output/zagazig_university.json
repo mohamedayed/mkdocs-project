@@ -1,0 +1,566 @@
+{
+  "id": 1,
+  "name": "zagazig university",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "Tuition Fees",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Tuition Fees",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "20912021100239",
+                "localDate": "9-11-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 790,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "عبد الرحمن مجدى عبد المنعم السباعى محمد",
+                    "Name": "اسم الطالب"
+                  },
+                  {
+                    "Key": "yearDescr",
+                    "Value": "2023-2024",
+                    "Name": "العام الاكاديمي"
+                  },
+                  {
+                    "Key": "facultyDescr",
+                    "Value": "الحاسبات والمعلومات",
+                    "Name": "اسم الكليه"
+                  },
+                  {
+                    "Key": "phaseDescr",
+                    "Value": "المستوى الثالث",
+                    "Name": "الفرقة الدراسية"
+                  },
+                  {
+                    "Key": "semDescr",
+                    "Value": "الفصل الدراسى الأول",
+                    "Name": "الفصل الدراسي"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "sequence": 1,
+                    "alias": "",
+                    "amount": 790,
+                    "minAmount": 790,
+                    "maxAmount": 790,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "20912021100239",
+                "amount": 790,
+                "localDate": "9-21-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "21/09/2023 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n            }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "1/21/2024 2:32:59 PM",
+                            "name": "Date",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "132389",
+                            "name": "Account Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "32750",
+                            "name": "Transaction Code",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "customerName",
+                            "value": "عبد الرحمن مجدى عبد المنعم السباعى محمد",
+                            "name": "اسم الطالب",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "yearDescr",
+                            "value": "2023-2024",
+                            "name": "العام الاكاديمي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "facultyDescr",
+                            "value": "الحاسبات والمعلومات",
+                            "name": "اسم الكليه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "phaseDescr",
+                            "value": "المستوى الثالث",
+                            "name": "الفرقة الدراسية",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "semDescr",
+                            "value": "الفصل الدراسى الأول",
+                            "name": "الفصل الدراسي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "nationalNumber",
+                            "value": "30309151301091",
+                            "name": "الرقم القومي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billingAccount",
+                            "Value": "20912021100239",
+                            "Name": "كود الطالب",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "nodeDescr",
+                            "Value": "تكنولوجيا المعلومات",
+                            "Name": "اسم الشعبة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "natureDescr",
+                            "Value": "انتظام",
+                            "Name": "طبيعة الدراسة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "amount",
+                            "Value": "790.000",
+                            "Name": "المبلغ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "",
+                            "name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "online integration",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "online integration",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "billingAccount": "21112018101291",
+                "localDate": "2025-01-20 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 90,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": " customerName",
+                    "Value": "ابراهيم سليمان عبدالعال",
+                    "Name": "اسم الطالب"
+                  },
+                  {
+                    "Key": "yearDescr",
+                    "Value": "2019-2020",
+                    "Name": "العام الاكاديمي"
+                  },
+                  {
+                    "Key": "facultyDescr",
+                    "Value": "الزراعة",
+                    "Name": "اسم الكلية"
+                  },
+                  {
+                    "Key": "phaseDescr",
+                    "Value": "المستوى الاول",
+                    "Name": "الفرقة الدراسية"
+                  },
+                  {
+                    "Key": "semDescr",
+                    "Value": "الفصل الدراسى الثاني",
+                    "Name": "الفصل الدراسي"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 90,
+                    "minAmount": "90",
+                    "maxAmount": "90",
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": null,
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": null,
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "21112018101291",
+                "amount": 90,
+                "localDate": "01-20-2025 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "20/01/2025 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n            }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "19:14:29 20/01/2025",
+                            "name": "التاريخ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "2099",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": " customerName",
+                            "Value": "ابراهيم سليمان عبدالعال",
+                            "Name": "اسم الطالب",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "yearDescr",
+                            "Value": "2019-2020",
+                            "Name": "العام الاكاديمي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "facultyDescr",
+                            "Value": "الزراعة",
+                            "Name": "اسم الكلية",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "phaseDescr",
+                            "Value": "المستوى الاول",
+                            "Name": "الفرقة الدراسية",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "semDescr",
+                            "Value": "الفصل الدراسى الثاني",
+                            "Name": "الفصل الدراسي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "nationalNumber",
+                            "value": "0",
+                            "Name": "الرقم القومي",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "21112018101291",
+                            "name": "كود الطالب",
+                            "bold": false,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "nodeDescr",
+                            "value": "تكنولوجيا وادارة المشروعات الزراعية (تعليم مفتوح)",
+                            "Name": "اسم الشعبة",
+                            "bold": false,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "natureDescr",
+                            "value": "تعليم مدمج",
+                            "name": "طبيعة الدراسة",
+                            "bold": false,
+                            "alignment": 3,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "amount",
+                            "value": "90",
+                            "name": "المبلغ",
+                            "bold": false,
+                            "alignment": 1,
+                            "parameterType": 2,
+                            "fontSize": 1
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "",
+                            "name": "تكلفة الخدمة",
+                            "type": "0,1,2,3",
+                            "alignment": 2,
+                            "bold": false,
+                            "parameterType": 2,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalAmount",
+                            "Value": "",
+                            "Name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

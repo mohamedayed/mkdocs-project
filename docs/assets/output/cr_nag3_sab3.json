@@ -1,0 +1,356 @@
+{
+  "id": 1,
+  "name": "cr nag3 sab3",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "Installment - BILL-7201",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Installment - BILL-7201",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "27104092500642",
+                "localDate": "11-19-2024 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 500,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "customerName",
+                    "value": "صفاء عبدالمعتمد زارع",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 500,
+                    "minAmount": 500,
+                    "maxAmount": 500,
+                    "Data": [
+                      {
+                        "Key": "billId",
+                        "Value": "10000024002004",
+                        "Name": "رقم القسط"
+                      },
+                      {
+                        "Key": "penaltyAmount",
+                        "Value": "3.00",
+                        "Name": "قيمة الغرامة"
+                      },
+                      {
+                        "Key": "billDescription",
+                        "Value": "سداد القسط رقم11 من 12",
+                        "Name": "تفاصيل الفاتورة"
+                      },
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "500.00",
+                        "Name": "قيمة القسط"
+                      },
+                      {
+                        "Key": "dueDate",
+                        "Value": "2021.01.16 00:00:00",
+                        "Name": "تاريخ القسط"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "28707262500162",
+                "amount": 500,
+                "localDate": "12-19-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "Loan Pay Off - BILL-6724",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Loan Pay Off - BILL-6724",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "28503042500043",
+                "localDate": "11-12-2023 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 250,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": "هبه محمد ضاحي عبدالرسول",
+                    "Name": "اسم العميل"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "alias": "",
+                    "amount": 250,
+                    "minAmount": 250,
+                    "maxAmount": 250,
+                    "Data": [
+                      {
+                        "Key": "billdescription",
+                        "Value": "سداد معجل للقرض رقم 83001",
+                        "Name": "تفاصيل الفاتورة"
+                      },
+                      {
+                        "Key": "billId",
+                        "Value": "83001",
+                        "Name": "رقم القرض"
+                      },
+                      {
+                        "Key": "penaltyAmount",
+                        "Value": "0.00",
+                        "Name": "قيمة الغرامة"
+                      },
+                      {
+                        "Key": "providerDueAmount",
+                        "Value": "250.00",
+                        "Name": "قيمة السداد المعجل"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "28503042500043",
+                "amount": 250,
+                "localDate": "12-19-2023 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "13/11/2023 11:21:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "accountID",
+                            "value": "",
+                            "name": "رقم الحساب",
+                            "type": "1,2,3,4",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "serviceCode",
+                            "value": "XXX",
+                            "name": "كود الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "11506837",
+                            "name": "رقم العمليه",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "Key": "billingAccount",
+                            "Value": "28503042500043",
+                            "Name": "الرقم القومى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "customerName",
+                            "Value": "هبه محمد ضاحي عبدالرسول",
+                            "Name": "اسم العميل",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billDescription",
+                            "Value": "سداد معجل للقرض رقم 83001",
+                            "Name": "تفاصيل الفاتورة",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "penaltyAmount",
+                            "Value": "0.00",
+                            "Name": "قيمة الغرامة ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "Amount",
+                            "Value": "250.00",
+                            "Name": "قيمة السداد المعجل ",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "billNumber",
+                            "Value": "83001",
+                            "Name": "رقم القرض",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "serviceFees",
+                            "Value": false,
+                            "Name": "تكلفه الخدمه",
+                            "type": "0,1,2,3",
+                            "alignment": 2,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          },
+                          {
+                            "Key": "totalAmount",
+                            "Value": "",
+                            "Name": "المبلغ الكلى",
+                            "type": "0,1,2,3",
+                            "alignment": 1,
+                            "bold": false,
+                            "fontSize": "0,1,2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "id": 1,
+  "name": "topup",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "Etisalat",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Etisalat",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": "42.86",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "42.86",
+                "fees": 0,
+                "taxes": 0,
+                "totalAmount": 42.86,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01125349815",
+                "amount": 42.86,
+                "localDate": "05-10-2022 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "3870484284",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "accountID",
+                          "value": "",
+                          "name": "رقم الحساب",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "providerTransactionID",
+                          "value": "3870484284",
+                          "name": "الرقم المرجعي",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceCode",
+                          "value": "XXX",
+                          "name": "كود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "billingAccount",
+                          "Value": "01125349815",
+                          "Name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "amount",
+                          "Value": "42.86",
+                          "Name": "قيمة الشحن",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "taxes",
+                          "Value": "0.0",
+                          "Name": "قيمة الضريبة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": 0,
+                          "Name": "تكلفة الخدمة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "42.86",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "Orange",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Orange",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": "42",
+                "version": "1",
+                "serviceListVersion": "1"
+              },
+              "response": {
+                "Code": "200",
+                " Amount": "42",
+                "Fees": "",
+                "TotalAmount": "\r"
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01289418452",
+                "amount": 42,
+                "localDate": "03-15-2024 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "15/03/2024 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "R220512.0000.130101",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "billingAccount",
+                          "Value": "01289418452",
+                          "Name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "amount",
+                          "Value": "42",
+                          "Name": "قيمة الشحن",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "taxes",
+                          "Value": "0.0",
+                          "Name": "قيمة الضريبة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": 0,
+                          "Name": "تكلفة الخدمة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 4,
+      "name": "Vodafone",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Vodafone",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": 35,
+                "brn": "82430",
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": 35,
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01090018714",
+                "amount": 5,
+                "localDate": "4-26-2022 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "7/30/2023 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "billingAccount",
+                          "Value": "01090018714",
+                          "Name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "amount",
+                          "Value": "42",
+                          "Name": "قيمة الشحن",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "taxes",
+                          "Value": "0.0",
+                          "Name": "قيمة الضريبة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": 0,
+                          "Name": "تكلفة الخدمة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              }
+            },
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "201014694955",
+                "localDate": "4-26-2022 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1"
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 35,
+                "Brn": 82430,
+                "Data": [],
+                "invoices": [
+                  {
+                    "Sequence": 1,
+                    "Amount": 35,
+                    "minAmount": 35,
+                    "maxAmount": 35,
+                    "alias": "",
+                    "Data": [
+                      {
+                        "Key": "current",
+                        "Value": "35.0",
+                        "Name": "تجديد باقة فليكس الحالية"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 2,
+                    "Amount": 45,
+                    "minAmount": 45,
+                    "maxAmount": 45,
+                    "alias": "",
+                    "Data": [
+                      {
+                        "Key": "value",
+                        "Value": "45",
+                        "Name": "45"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 3,
+                    "Amount": 70,
+                    "minAmount": 70,
+                    "maxAmount": 70,
+                    "alias": "",
+                    "Data": [
+                      {
+                        "Key": "value",
+                        "Value": "70",
+                        "Name": "70"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 4,
+                    "Amount": 100,
+                    "minAmount": 100,
+                    "maxAmount": 100,
+                    "alias": "",
+                    "Data": [
+                      {
+                        "Key": "value",
+                        "Value": "100",
+                        "Name": "100"
+                      }
+                    ]
+                  },
+                  {
+                    "Sequence": 5,
+                    "Amount": 200,
+                    "minAmount": 200,
+                    "maxAmount": 200,
+                    "alias": "",
+                    "Data": [
+                      {
+                        "Key": "value",
+                        "Value": "200",
+                        "Name": "200"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 5,
+      "name": "We Topup",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "We Topup",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": 900,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": 900,
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "payment": {
+              "request": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "11506837",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "000004723012",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "billingAccount",
+                          "Value": "01289418452",
+                          "Name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "amount",
+                          "Value": "42",
+                          "Name": "قيمة الشحن",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "taxes",
+                          "Value": "0.0",
+                          "Name": "قيمة الضريبة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": 0,
+                          "Name": "تكلفة الخدمة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "11506837",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "000004723012",
+                    "Name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "billingAccount",
+                          "Value": "1550016535",
+                          "Name": "رقم العميل",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "amount",
+                          "Value": "900",
+                          "Name": "قيمة الشحن",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "taxes",
+                          "Value": "0.0",
+                          "Name": "قيمة الضريبة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": 0,
+                          "Name": "تكلفة الخدمة",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

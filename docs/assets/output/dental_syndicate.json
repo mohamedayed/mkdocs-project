@@ -1,0 +1,453 @@
+{
+  "id": 1,
+  "name": "dental syndicate",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "Certificate",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Certificate",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "18060",
+                "localDate": "4-26-2022 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "certificateCode",
+                    "value": "114",
+                    "name": "كود الشهادة"
+                  },
+                  {
+                    "key": "delivery",
+                    "value": "1",
+                    "name": ""
+                  },
+                  {
+                    "key": "mobile",
+                    "value": "",
+                    "name": "رقم المحمول"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 4890.5,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": " طبيب احمد عبد المحسن احمد الأشموني اشتراك عن عدد سنين 20 تم دفع خدمة حساب اشتراك د مروه خليل فلسطنية",
+                    "Name": "اسم المشترك"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "amount": 4890.5,
+                    "openAmount": 4890.5,
+                    "Sequence": 1,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "4890.5",
+                "version": "1",
+                "serviceListVersion": "1"
+              },
+              "response": {
+                "Code": "200",
+                " Amount": "4890.5",
+                "Fees": "",
+                "TotalAmount": "\r"
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "18060",
+                "amount": 4890.5,
+                "localDate": "4-26-2022 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "TransactionId": "",
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "AddedTime": "12/05/2022 00:00:25 PM",
+                "BalanceNow": "668900.75",
+                "TotalWithAddedMoney": "",
+                "Total_Amount": "4890.5",
+                "AddedMoney": "",
+                "ProviderTransactionID": "",
+                "Data": [
+                  {
+                    "Key": "amount",
+                    "Value": "4890.5",
+                    "Name": "المبلغ المدفوع"
+                  },
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": " طبيب احمد عبد المحسن احمد الأشموني اشتراك عن عدد سنين 20 تم دفع خدمة حساب اشتراك د مروه خليل فلسطنية",
+                    "Name": "اسم المشترك"
+                  },
+                  {
+                    "Key": "memberID",
+                    "Value": "18060",
+                    "Name": "رقم العضوية"
+                  },
+                  {
+                    "Key": "certificateCode",
+                    "Value": "114",
+                    "Name": "كود الشهادة"
+                  },
+                  {
+                    "Key": "paidAmount",
+                    "Value": "",
+                    "Name": "المبلغ المدفوع"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "19:14:29 31/05/2021",
+                          "name": "التاريخ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "accountID",
+                          "value": "",
+                          "name": "رقم الحساب",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "providerTransactionID",
+                          "value": "",
+                          "name": "الرقم المرجعي",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceCode",
+                          "value": "XXX",
+                          "name": "كود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "key": "providerFees",
+                          "value": false,
+                          "name": "تكلفه مزود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "paidAmount",
+                          "value": "",
+                          "name": "المبلغ المدفوع",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "customerName",
+                          "value": " طبيب احمد عبد المحسن احمد الأشموني اشتراك عن عدد سنين 20 تم دفع خدمة حساب اشتراك د مروه خليل فلسطنية",
+                          "name": "اسم المشترك",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "memberID",
+                          "value": "18060",
+                          "name": "رقم العضوية",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "certificateCode",
+                          "Value": "114",
+                          "Name": "كود الشهادة",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "Subscription",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Subscription",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "16616",
+                "localDate": "4-26-2022 10:10:20",
+                "version": "1",
+                "serviceListVersion": "1"
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 857,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "Key": "customerName",
+                    "Value": " طبيب احمد محمود عبد العزيز محمد حسن العاقل اشتراك عن عدد سنين 1",
+                    "Name": "اسم المشترك"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "amount": 857,
+                    "openAmount": 857,
+                    "Sequence": 1,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "857.0",
+                "version": "1",
+                "serviceListVersion": "1"
+              },
+              "response": {
+                "Code": "200",
+                " Amount": "857.0",
+                "Fees": "",
+                "TotalAmount": "\r"
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "16616",
+                "amount": 857,
+                "localDate": "4-26-2022 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "TransactionId": "",
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "AddedTime": "12/05/2022 00:00:25 PM",
+                "BalanceNow": "668900.75",
+                "TotalWithAddedMoney": "",
+                "Total_Amount": "857.0",
+                "AddedMoney": "",
+                "ProviderTransactionID": "",
+                "Data": [
+                  {
+                    "Key": "amount",
+                    "Value": "857.0",
+                    "Name": "المبلغ"
+                  },
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "customerName",
+                    "Value": "طبيب احمد محمود عبد العزيز محمد حسن العاقل اشتراك عن عدد سنين 1",
+                    "Name": "اسم العميل"
+                  },
+                  {
+                    "Key": "memberID",
+                    "Value": "16616",
+                    "Name": "رقم العضوية"
+                  },
+                  {
+                    "Key": "paidAmount",
+                    "Value": "857.0",
+                    "Name": "المبلغ المدفوع"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "19:14:29 31/05/2021",
+                          "name": "التاريخ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "accountID",
+                          "value": "",
+                          "name": "رقم الحساب",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "providerTransactionID",
+                          "value": "",
+                          "name": "الرقم المرجعي",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "serviceCode",
+                          "value": "XXX",
+                          "name": "كود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "key": "providerFees",
+                          "value": false,
+                          "name": "تكلفه مزود الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "paidAmount",
+                          "value": "857.0",
+                          "name": "المبلغ المدفوع",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "customerName",
+                          "value": "طبيب احمد محمود عبد العزيز محمد حسن العاقل اشتراك عن عدد سنين 1",
+                          "name": "اسم المشترك",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "memberID",
+                          "value": "16616",
+                          "name": "رقم العضوية",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

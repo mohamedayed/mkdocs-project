@@ -1,0 +1,149 @@
+site_name: Momkn API Docs
+site_url: https://docs.momkn.com
+
+theme:
+  name: material
+  language: en
+
+  features:
+    # Sidebar layout (clean, arrow-based collapse)
+    - navigation.sections
+    - navigation.expand           # all nav expanded by default
+    - navigation.footer
+    
+    - toc.integrate               # show TOC in sidebar
+    - navigation.top              # "back to top" button
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy           # "copy code" button
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: custom
+      accent: custom
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: custom
+      accent: custom
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - css/extra.css
+  # - https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+  - css/bootstrap-sandbox.css
+  - css/tree-browser.css
+  - css/tab-toggle.css
+  - css/custom-cards.css
+  - css/compact-cards.css
+  - css/swagger-drawer.css
+  - https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui.css
+  - css/schema-table.css
+  - css/services-tree-dynamic.css
+extra_javascript:
+  - js/extra.js
+  - js/service-browser.js
+  - js/tree-browser.js
+  # - https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+  - js/tab-toggle.js
+  - js/parent-categories.js
+  - https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-bundle.js
+  - js/swagger-drawer.js
+  - js/convert-swagger-to-markdown.js
+  # - js/service-builder-dynamic-tree.js
+  - js/service-docs-integration-builder-tree.js
+  - js/convertDocsToOpenApi.js
+  
+  
+
+extra:
+    unit_price: 10
+
+
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets
+  - pymdownx.mark
+  - pymdownx.arithmatex:
+      generic: true
+
+nav:
+  - Home: index.md
+  - Overview: 01-overview.md
+  - Common Parameters: 02-common-parameters.md
+  - Common Errors: 03-common-errors.md
+
+  # - Services: services-tree.md
+  - Getting Start: 00-getting-started.md
+  
+  - Bill Payment Gateway:
+      - 01-Services:
+          - Overview: docs/bill-payment-gateway/01-Services/Overview.md
+          - Takka: bill-payment-gateway/Takka.md
+          - Forsa: bill-payment-gateway/services/forsa/index.md 
+   
+      - 02-APIs Reference:
+          - Overview: docs/bill-payment-gateway/02-APIs Reference/Overview.md
+          - Services APIs: bill-payment-gateway/apis-reference/service-management/integration-services-docs.md
+      - Bill Payment:
+          - Inquiry -> Fees -> Payment: bill-payment-gateway/bill-payment/core-flows/inquiry-fees-payment-flow/00-inquiry-fees-Payment.md
+          - 01-Inquiry: bill-payment-gateway/bill-payment/01-Inquiry.md
+          - 02-Fees: bill-payment-gateway/bill-payment/02-Fees.md
+          - 03-Payment: bill-payment-gateway/bill-payment/03-Payment.md
+          - 04-Confirm: bill-payment-gateway/bill-payment/04-Confirm.md
+          - 05-Cancel: bill-payment-gateway/bill-payment/05-Cancel.md
+          - 06-Check Status: bill-payment-gateway/bill-payment/06-Check Status.md
+      - Account Management:
+          - Authentication: docs/bill-payment-gateway/account-management/Authentication.md
+          - Get Balance: docs/bill-payment-gateway/account-management/Get Balance.md
+      - Onboarding:
+          - (add .md files here if needed when visible)
+      - Service Management:
+          - Commission: docs/bill-payment-gateway/service-management/Commission.md
+          - Service Catalog: bill-payment-gateway/service-management/service-catalog.md
+
+  - Edge Services Gateway:
+      - 01-Services:
+          - Overview: docs/Edge Services Gateway/01-Services/Overview.md
+      - 02-APIs Reference:
+          - Overview: docs/Edge Services Gateway/02-APIs Reference/Overview.md
+
+  - Changelog: changelog.md
+  - Contact: contact.md
+
+copyright: |
+  &copy; 2025 AlAhly Momkn for Digital Payments. All rights reserved.  
+  This documentation is proprietary and intended for partners and authorized developers only.

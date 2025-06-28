@@ -1,0 +1,204 @@
+{
+  "id": 1,
+  "name": "i-business",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "i-business",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "i-business",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01002199803",
+                "localDate": "02-15-2024 03:10:20",
+                "version": "1",
+                "serviceListVersion": "1",
+                "data": [
+                  {
+                    "key": "billingAcctTypeId",
+                    "value": "4"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 50,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "billingAccount",
+                    "value": "01002199803",
+                    "Name": "رقم الهاتف"
+                  }
+                ],
+                "invoices": [
+                  {
+                    "Sequence": 68500,
+                    "alias": "",
+                    "amount": 50,
+                    "minAmount": 50,
+                    "maxAmount": 5000,
+                    "extraData": [
+                      {
+                        "key": "issueDate",
+                        "value": "01-09-2023",
+                        "Name": "تاريخ الفاتورة"
+                      },
+                      {
+                        "key": "providerDueAmount",
+                        "value": "50",
+                        "Name": "مبلغ العملية"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "amount": "",
+                "brn": 82430,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "sequence",
+                    "Value": "68500"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [],
+                "amount": "",
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "01002199803",
+                "amount": 55,
+                "localDate": "2024-02-15 15:32:25",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {
+                    "key": "Sequence",
+                    "value": "68500"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "totalAvailableBalance": 951669.13,
+                "totalBalance": 951669.13,
+                "localDate": null,
+                "serverDate": "15/02/2024 4:02:26 م",
+                "Data": [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  }
+                ],
+                "receipts": [
+                  {
+                    "title": {
+                      "serviceName": "اي بيزنس"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "transactionId",
+                          "value": "11506837",
+                          "name": "رقم العمليه",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "key": "billingAccount",
+                          "value": "01002199803",
+                          "name": "رقم الهاتف",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "issueDate",
+                          "Value": "01-09-2023",
+                          "Name": "تاريخ الفاتورة ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "Amount",
+                          "Value": "55",
+                          "Name": "مبلغ العملية ",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "serviceFees",
+                          "Value": false,
+                          "Name": "تكلفه الخدمه",
+                          "type": "0,1,2,3",
+                          "alignment": 2,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "المبلغ الكلى",
+                          "type": "0,1,2,3",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        },
+                        {
+                          "key": "extraInfoAr",
+                          "value": "للاستعلام كلم 01011125078 واتساب ",
+                          "name": "بيانات اضافية",
+                          "type": "1,2,3,4",
+                          "alignment": 1,
+                          "bold": false,
+                          "fontSize": "0,1,2"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer": "",
+                "footer": "خدمة عملاء ممكن 16379\r\nwww.momkn.com.eg"
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

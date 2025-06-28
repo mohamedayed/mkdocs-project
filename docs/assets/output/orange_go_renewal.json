@@ -1,0 +1,186 @@
+{
+  "id": 1,
+  "name": "orange go renewal",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "orange go renewal",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "orange go renewal",
+          "docs": {
+            "Inquiry": {
+              "request": {
+                "BillingAccount": "01277709437",
+                "LocalDate": "4-26-2022 10:10:20",
+                "Version": "1",
+                "ServiceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "TotalAmount": 85.72,
+                "Brn": 82430,
+                "Data": [
+                  {
+                    "key": "billingAccount",
+                    "value": "01277709437",
+                    "name": "رقم الموبايل"
+                  }
+                ],
+                "Invoices": [
+                  {
+                    "Sequence": 1,
+                    "Alias": "",
+                    "Amount": 85.72,
+                    "MinAmount": 85.72,
+                    "MaxAmount": 85.72,
+                    "Data": []
+                  }
+                ]
+              }
+            },
+            "Fees": {
+              "request": {
+                "Amount": "85.72",
+                "Brn": 82430,
+                "Version": "1",
+                "ServicelistVersion": "1",
+                "Data": [
+                  {
+                    "key": "sequence",
+                    "value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": 200,
+                "Message": "عمليه ناجحه",
+                "Data": [],
+                "Amount": 85.72,
+                "Fees": 0,
+                "TotalAmount": 85.72,
+                "Brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "BillingAccount": "01277709437",
+                "Brn": "82430",
+                "Amount": "85.72",
+                "LocalDate": "2-24-2020 01:00:00",
+                "Version": "1",
+                "ServiceListVersion": "1",
+                "Data": [
+                  {
+                    "Key": "Sequence",
+                    "Value": "1"
+                  }
+                ]
+              },
+              "response": {
+                "Code": "200",
+                "Message": "عملية ناجحة",
+                "TotalAvailableBalance": 951669.13,
+                "TotalBalance": 951669.13,
+                "LocalDate": null,
+                "ServerDate": "18‏‏/12‏‏/2022 2:02:26 م",
+                "Data": [
+                  {
+                    "key": "transactionID",
+                    "value": "1547963",
+                    "name": "رقم العمليه"
+                  },
+                  {
+                    "key": "providerTransactionId",
+                    "value": "R240207.1402.110001",
+                    "name": "الرقم المرجعي للخدمه"
+                  }
+                ],
+                "Reciepts": [
+                  {
+                    "title": {
+                      "serviceName": "\r\n      }",
+                      "header": {
+                        "data": [
+                          {
+                            "key": "date",
+                            "value": "7/30/2023 2:18:05 PM",
+                            "name": "التاريخ"
+                          },
+                          {
+                            "key": "accountId",
+                            "value": "6",
+                            "name": "رقم الحساب"
+                          },
+                          {
+                            "key": "transactionId",
+                            "value": "13824499",
+                            "name": "رقم العمليه"
+                          }
+                        ]
+                      },
+                      "body": {
+                        "data": [
+                          {
+                            "key": "bucketName",
+                            "value": "GO 60 (4,250 MBs)",
+                            "name": "الباقة"
+                          },
+                          {
+                            "key": "quota",
+                            "value": "4250",
+                            "name": "السعة"
+                          },
+                          {
+                            "key": "validity",
+                            "value": "28Days",
+                            "name": "متاحة لمدة"
+                          },
+                          {
+                            "key": "billingAccount",
+                            "value": "01277709437",
+                            "name": "رقم الموبايل"
+                          },
+                          {
+                            "key": "amount",
+                            "value": "85.72",
+                            "name": "المبلغ"
+                          },
+                          {
+                            "key": "serviceFees",
+                            "value": "0",
+                            "name": "تكلفة الخدمة"
+                          },
+                          {
+                            "key": "totalAmount",
+                            "value": "85.72",
+                            "name": "المبلغ الكلي"
+                          },
+                          {
+                            "key": "providerTransactionId",
+                            "value": "R240207.1402.110001",
+                            "name": "الرقم المرجعي للخدمه"
+                          }
+                        ]
+                      },
+                      "disclaimer": "",
+                      "footer": "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}

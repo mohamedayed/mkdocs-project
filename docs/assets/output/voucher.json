@@ -1,0 +1,834 @@
+{
+  "id": 1,
+  "name": "voucher",
+  "parentID": null,
+  "lastNode": false,
+  "serviceCategory": [
+    {
+      "id": 2,
+      "name": "Etisalat",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Etisalat",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": 11.5,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "count",
+                    "Value": "2",
+                    "Name": "عدد الكروت"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [
+                  {
+                    "Key": "count",
+                    "Value": "2",
+                    "Name": "عدد الكروت"
+                  }
+                ],
+                "amount": 11.5,
+                "fees": 0,
+                "taxes": 0,
+                "totalAmount": 11.5,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "",
+                "amount": 11.5,
+                "localDate": "03-15-2024 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": [
+                {
+                  "Code": "200",
+                  "Message": "عملية ناجحة",
+                  "totalAvailableBalance": 951669.13,
+                  "totalBalance": 951669.13,
+                  "localDate": null,
+                  "serverDate": "15/03/2024 2:02:26 م",
+                  "Data": [
+                    {
+                      "Key": "transactionId",
+                      "Value": "1547963",
+                      "Name": "رقم العمليه"
+                    },
+                    {
+                      "Key": "providerTransactionId",
+                      "Value": "",
+                      "Name": "الرقم المرجعي للخدمه"
+                    },
+                    {
+                      "Key": "pin",
+                      "Value": "4235-8478-9428-227",
+                      "Name": "كود الشحن"
+                    },
+                    {
+                      "Key": "serial",
+                      "Value": "240805651366659",
+                      "Name": "الرقم المسلسل"
+                    }
+                  ]
+                },
+                [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "",
+                    "Name": "الرقم المرجعي للخدمه"
+                  },
+                  {
+                    "Key": "pin",
+                    "Value": "4235-8478-9428-227",
+                    "Name": "كود الشحن"
+                  },
+                  {
+                    "Key": "serial",
+                    "Value": "240805651366659",
+                    "Name": "الرقم المسلسل"
+                  }
+                ],
+                "receipts",
+                ":",
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "4235-8478-9428-227",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "240805651366659",
+                          "Name": "الرقم المسلسل"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "4235-8478-9428-229",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "240805651366656",
+                          "Name": "الرقم المسلسل"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer",
+                ":",
+                "",
+                "footer",
+                ":",
+                "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              ]
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 3,
+      "name": "Orange",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Orange",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": null,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "count",
+                    "Value": "2",
+                    "Name": "عدد الكروت"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [
+                  {
+                    "Key": "count",
+                    "Value": "2",
+                    "Name": "عدد الكروت"
+                  }
+                ],
+                "amount": null,
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "",
+                "amount": 10,
+                "localDate": "03-15-2024 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": [
+                {
+                  "Code": "200",
+                  "Message": "عملية ناجحة",
+                  "totalAvailableBalance": 951669.13,
+                  "totalBalance": 951669.13,
+                  "localDate": null,
+                  "serverDate": "15/03/2024 2:02:26 م",
+                  "Data": [
+                    {
+                      "Key": "transactionId",
+                      "Value": "1547963",
+                      "Name": "رقم العمليه"
+                    },
+                    {
+                      "Key": "providerTransactionId",
+                      "Value": "",
+                      "Name": "الرقم المرجعي للخدمه"
+                    },
+                    {
+                      "Key": "pin",
+                      "Value": "4235-8478-9428-227",
+                      "Name": "كود الشحن"
+                    },
+                    {
+                      "Key": "serial",
+                      "Value": "240805651366659",
+                      "Name": "الرقم المسلسل"
+                    }
+                  ]
+                },
+                [
+                  {
+                    "Key": "transactionId",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "",
+                    "Name": "الرقم المرجعي للخدمه"
+                  },
+                  {
+                    "Key": "pin",
+                    "Value": "4235-8478-9428-227",
+                    "Name": "كود الشحن"
+                  },
+                  {
+                    "Key": "serial",
+                    "Value": "240805651366659",
+                    "Name": "الرقم المسلسل"
+                  }
+                ],
+                "receipts",
+                ":",
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "6822-3438-1601-1011",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "900008277042",
+                          "Name": "الرقم المسلسل"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "6822-3438-1601-1011",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "900008277043",
+                          "Name": "الرقم المسلسل"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer",
+                ":",
+                "",
+                "footer",
+                ":",
+                "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              ]
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 4,
+      "name": "Vodafone",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "Vodafone",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": 7,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "count",
+                    "Value": "",
+                    "Name": "عدد الكروت"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [
+                  {
+                    "Key": "count",
+                    "Value": "",
+                    "Name": "عدد الكروت"
+                  }
+                ],
+                "amount": 7,
+                "fees": null,
+                "taxes": null,
+                "totalAmount": null,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "",
+                "amount": 7,
+                "localDate": "4-26-2022 10:12:12",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": [
+                  {}
+                ]
+              },
+              "response": [
+                {
+                  "Code": "200",
+                  "Message": "عملية ناجحة",
+                  "totalAvailableBalance": 951669.13,
+                  "totalBalance": 951669.13,
+                  "localDate": null,
+                  "serverDate": "15/03/2024 2:02:26 م",
+                  "Data": [
+                    {
+                      "Key": "transactionID",
+                      "Value": "1547963",
+                      "Name": "رقم العمليه"
+                    },
+                    {
+                      "Key": "providerTransactionId",
+                      "Value": "",
+                      "Name": "الرقم المرجعي للخدمه"
+                    },
+                    {
+                      "Key": "pin",
+                      "Value": "4235-8478-9428-227",
+                      "Name": "كود الشحن"
+                    },
+                    {
+                      "Key": "serial",
+                      "Value": "240805651366659",
+                      "Name": "الرقم المسلسل"
+                    }
+                  ]
+                },
+                [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "",
+                    "Name": "الرقم المرجعي للخدمه"
+                  },
+                  {
+                    "Key": "pin",
+                    "Value": "4235-8478-9428-227",
+                    "Name": "كود الشحن"
+                  },
+                  {
+                    "Key": "serial",
+                    "Value": "240805651366659",
+                    "Name": "الرقم المسلسل"
+                  }
+                ],
+                "receipts",
+                ":",
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "1218-4510-8460-6633",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "900008277042",
+                          "Name": "الرقم المسلسل"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "1218-4510-8460-6637",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "900008277043",
+                          "Name": "الرقم المسلسل"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer",
+                ":",
+                "",
+                "footer",
+                ":",
+                "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              ]
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    },
+    {
+      "id": 5,
+      "name": "WE",
+      "lastNode": true,
+      "services": [
+        {
+          "serviceName": "WE",
+          "docs": {
+            "Fees": {
+              "request": {
+                "amount": 11.5,
+                "version": "1",
+                "servicelistVersion": "1",
+                "Data": [
+                  {
+                    "Key": "count",
+                    "Value": "2",
+                    "Name": "عدد الكروت"
+                  }
+                ]
+              },
+              "response": {
+                "code": 200,
+                "message": "عمليه ناجحه",
+                "data": [
+                  {
+                    "Key": "count",
+                    "Value": "2",
+                    "Name": "عدد الكروت"
+                  }
+                ],
+                "amount": 11.5,
+                "fees": 0,
+                "taxes": 0,
+                "totalAmount": 11.5,
+                "brn": 82430
+              }
+            },
+            "Payment": {
+              "request": {
+                "brn": 82430,
+                "billingAccount": "",
+                "amount": 30,
+                "localDate": "03-15-2024 00:00:00",
+                "version": "1",
+                "serviceListVersion": "1",
+                "Data": []
+              },
+              "response": [
+                {
+                  "Code": "200",
+                  "Message": "عملية ناجحة",
+                  "totalAvailableBalance": 951669.13,
+                  "totalBalance": 951669.13,
+                  "localDate": null,
+                  "serverDate": "15/03/2024 2:02:26 م",
+                  "Data": [
+                    {
+                      "Key": "transactionId",
+                      "Value": "1547963",
+                      "Name": "رقم العمليه"
+                    },
+                    {
+                      "Key": "providerTransactionId",
+                      "Value": "",
+                      "Name": "الرقم المرجعي للخدمه"
+                    },
+                    {
+                      "Key": "pin",
+                      "Value": "4235-8478-9428-227",
+                      "Name": "كود الشحن"
+                    },
+                    {
+                      "Key": "serial",
+                      "Value": "240805651366659",
+                      "Name": "الرقم المسلسل"
+                    }
+                  ]
+                },
+                [
+                  {
+                    "Key": "transactionID",
+                    "Value": "1547963",
+                    "Name": "رقم العمليه"
+                  },
+                  {
+                    "Key": "providerTransactionId",
+                    "Value": "",
+                    "Name": "الرقم المرجعي للخدمه"
+                  },
+                  {
+                    "Key": "pin",
+                    "Value": "4235-8478-9428-227",
+                    "Name": "كود الشحن"
+                  },
+                  {
+                    "Key": "serial",
+                    "Value": "240805651366659",
+                    "Name": "الرقم المسلسل"
+                  }
+                ],
+                "receipts",
+                ":",
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "Encrypted PIN",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "19073100000472",
+                          "Name": "رقم المسلسل"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "title": {
+                      "serviceName": ":"
+                    },
+                    "header": {
+                      "data": [
+                        {
+                          "key": "date",
+                          "value": "3/15/2024 2:18:05 PM",
+                          "name": "التاريخ"
+                        },
+                        {
+                          "key": "accountId",
+                          "value": "6",
+                          "name": "رقم الحساب"
+                        },
+                        {
+                          "key": "transactionId",
+                          "value": "13824499",
+                          "name": "رقم العمليه"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "data": [
+                        {
+                          "Key": "pin",
+                          "Value": "Encrypted PIN",
+                          "Name": "كود الشحن"
+                        },
+                        {
+                          "Key": "totalAmount",
+                          "Value": "",
+                          "Name": "قيمة الكارت"
+                        },
+                        {
+                          "Key": "serial",
+                          "Value": "19073100000473",
+                          "Name": "رقم المسلسل"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "disclaimer",
+                ":",
+                "",
+                "footer",
+                ":",
+                "خدمة عملاء الاهلى ممكن 16379\\r\\nwww.Alahlymomkn.com"
+              ]
+            }
+          }
+        }
+      ],
+      "serviceCategory": []
+    }
+  ]
+}
