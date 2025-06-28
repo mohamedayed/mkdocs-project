@@ -6,7 +6,7 @@ async function buildServiceTree() {
   treeContainer.innerHTML = "";
 
   try {
-    const response = await fetch("assets/data/services.json");
+    const response = await fetch("/assets/data/services.json");
     const json = await response.json();
     const categories = json.serviceList?.serviceCategory || [];
 

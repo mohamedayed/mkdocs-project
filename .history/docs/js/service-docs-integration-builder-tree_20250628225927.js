@@ -13,7 +13,7 @@ async function buildServiceDocsTree() {
   servicesFlatList.length = 0; // clear before rebuilding
 
   try {
-    const indexResponse = await fetch("assets/output/index.json");
+    const indexResponse = await fetch("/assets/output/index.json");
     const fileList = await indexResponse.json();
 
     for (const { name, file } of fileList) {

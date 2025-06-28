@@ -3,9 +3,6 @@ site_url: https://docs.momkn.com
 
 theme:
   name: material
-  pallette:
-    scheme: slate
-
   language: en
 
   features:
